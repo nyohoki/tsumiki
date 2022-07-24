@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "tsumiki",
+  "version": "${version}",
+
+  "name": "Tsumiki",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "nyohoki"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/nyohoki/tsumiki"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nyohoki.tsumiki.Tsumiki"
+    ],
+    "client": [
+      "net.nyohoki.tsumiki.TsumikiClient"
+    ]
+  },
+  "mixins": [
+    "tsumiki.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
