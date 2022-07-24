@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,5 +18,6 @@ public class Tsumiki implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fren :3");
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "gurasu"), GURASU);
 	}
 }
