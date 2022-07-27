@@ -24,7 +24,6 @@ public class Tsumiki implements ModInitializer {
 	public static final Block GLASS_SLAB = new SlabBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	public static final Block GLASS_FENCE = new FenceBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 
-
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fren :3");
