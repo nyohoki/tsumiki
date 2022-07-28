@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
@@ -29,10 +30,13 @@ public class Tsumiki implements ModInitializer {
 	public static final Block GLASS_DOOR = new DoorBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	// public static final Block GLASS_FLOWER = new TsumikiFlower(Tsumiki.GURASU.getDefaultState(),
 	//		FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GLASS_FLOWER = new FlowerBlock(StatusEffects.DARKNESS, 200,
+					FabricBlockSettings.copy(Blocks.WITHER_ROSE).nonOpaque().noCollision());
+
 	// public static final Block GLASS_SIGN = new TsumikiSign(Tsumiki.GURASU.getDefaultState(),
 	//		FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	// public static final Block GLASS_PRESSURE_PLATE = new TsumikiPlate(Tsumiki.GURASU.getDefaultState(),
-	//		FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GLASS_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+			FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 
 	@Override
 	public void onInitialize() {
@@ -82,15 +86,15 @@ public class Tsumiki implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_sign"),
 				new BlockItem(GLASS_SIGN, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 */
-/*
+
 		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "glass_flower"), GLASS_FLOWER);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_flower"),
 				new BlockItem(GLASS_FLOWER, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
-*/
-/*
+
+
 		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "glass_pressure_plate"), GLASS_PRESSURE_PLATE);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_pressure_plate"),
 				new BlockItem(GLASS_PRESSURE_PLATE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
-*/
+
 	}
 }
