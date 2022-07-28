@@ -12,8 +12,6 @@ import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static net.minecraft.block.Blocks.GLASS;
-
 
 public class Tsumiki implements ModInitializer {
 	public static final String MOD_ID = "tsumiki";
@@ -23,10 +21,18 @@ public class Tsumiki implements ModInitializer {
 			FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	public static final Block GLASS_SLAB = new SlabBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	public static final Block GLASS_FENCE = new FenceBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final	Block GLASS_GATE = new FenceGateBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final	Block GLASS_WALL = new WallBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GLASS_GATE = new FenceGateBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GLASS_WALL = new WallBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	public static final Block GLASS_TRAPDOOR = new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final	Block GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GLASS_CARPET = new CarpetBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GLASS_DOOR = new DoorBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	// public static final Block GLASS_FLOWER = new TsumikiFlower(Tsumiki.GURASU.getDefaultState(),
+	//		FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	// public static final Block GLASS_SIGN = new TsumikiSign(Tsumiki.GURASU.getDefaultState(),
+	//		FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	// public static final Block GLASS_PRESSURE_PLATE = new TsumikiPlate(Tsumiki.GURASU.getDefaultState(),
+	//		FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 
 	@Override
 	public void onInitialize() {
@@ -63,5 +69,28 @@ public class Tsumiki implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_button"),
 				new BlockItem(GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "glass_carpet"), GLASS_CARPET);
+		Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_carpet"),
+				new BlockItem(GLASS_CARPET, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "glass_door"), GLASS_DOOR);
+		Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_door"),
+				new BlockItem(GLASS_DOOR, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+
+/*
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "glass_sign"), GLASS_SIGN);
+		Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_sign"),
+				new BlockItem(GLASS_SIGN, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+*/
+/*
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "glass_flower"), GLASS_FLOWER);
+		Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_flower"),
+				new BlockItem(GLASS_FLOWER, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+*/
+/*
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "glass_pressure_plate"), GLASS_PRESSURE_PLATE);
+		Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_pressure_plate"),
+				new BlockItem(GLASS_PRESSURE_PLATE, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+*/
 	}
 }
