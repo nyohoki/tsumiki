@@ -15,5 +15,7 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_FENCE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_GATE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_WALL, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_TRAPDOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_BUTTON, RenderLayer.getTranslucent());
     }
 }
