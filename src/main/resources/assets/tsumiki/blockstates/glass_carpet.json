@@ -1,7 +1,7 @@
 {
-  "variants": {
-    "": {
-      "model": "tsumiki:block/glass_carpet"
+    "variants": {
+        "": {
+            "model": "tsumiki:block/glass_carpet"
+        }
     }
-  }
 }

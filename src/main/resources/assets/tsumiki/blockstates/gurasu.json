@@ -1,7 +1,7 @@
 {
-  "variants": {
-    "": {
-      "model": "tsumiki:block/gurasu"
-    }
-  }
+	"variants": {
+		"": {
+			"model": "tsumiki:block/gurasu"
+		}
+	}
 }
