@@ -6,6 +6,7 @@ color_stained_glass
 	carpets
 	doors
 	fences
+	gates
 	pressure plates
 	slabs
 	stairs
@@ -16,6 +17,7 @@ wool
 	buttons
 	doors
 	fences
+	gates
 	pressure plates
 	slabs
 	stairs
@@ -31,4 +33,5 @@ stone
 	carpets
 	doors
 	fences
+	gates
 	trapdoors
