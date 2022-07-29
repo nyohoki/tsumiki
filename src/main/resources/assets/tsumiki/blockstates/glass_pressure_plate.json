@@ -1,9 +1,9 @@
 {
 	"variants": {
-		"powered = false": {
+		"powered=false": {
 			"model": "tsumiki:block/glass_pressure_plate"
 		},
-		"powered = true": {
+		"powered=true": {
 			"model": "tsumiki:block/glass_pressure_plate_down"
 		}
 	}
