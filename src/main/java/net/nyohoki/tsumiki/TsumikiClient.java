@@ -3,7 +3,6 @@ package net.nyohoki.tsumiki;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.RenderLayers;
 
 public class TsumikiClient implements ClientModInitializer {
 
@@ -19,8 +18,6 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_DOOR, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_FLOWER, RenderLayer.getTranslucent());
-        // BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_SIGN, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
 
     }
