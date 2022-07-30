@@ -34,3 +34,6 @@ bin/
 
 #fabic
 run/
+
+#user
+*.swp
