@@ -198,15 +198,15 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLACK_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
 		// might need to change this
 		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_BUTTON, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GLASS_CARPET, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GLASS_DOOR, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GLASS_FENCE, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GLASS_GATE, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GLASS_SLAB, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GLASS_STAIRS, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GLASS_WALL, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_CARPET, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_DOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_FENCE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_GATE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_SLAB, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_STAIRS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINITED_GLASS_WALL, RenderLayer.getTranslucent());
 		
     }
 }

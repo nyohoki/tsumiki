@@ -104,7 +104,19 @@ public class Tsumiki implements ModInitializer {
 	public static final Block YELLOW_STAINED_GLASS_TRAPDOOR = new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	public static final Block YELLOW_STAINED_GLASS_WALL = new WallBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	
-	
+	// lime glass
+	public static final Block LIME_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_CARPET = new CarpetBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_FENCE = new FenceBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_DOOR = new DoorBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_GATE = new FenceGateBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_SLAB = new SlabBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_STAIRS = new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_TRAPDOOR = new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_WALL = new WallBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	
 	// green glass
 	public static final Block GREEN_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
@@ -821,32 +833,32 @@ public class Tsumiki implements ModInitializer {
 		// tinted
 		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_button"), TINTED_GLASS_BUTTON);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_button"),
-			new BlockItem(TINTED_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));			
-		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_stained_glass_carpet"), TINTED_GLASS_CARPET);
+			new BlockItem(TINTED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_carpet"), TINTED_GLASS_CARPET);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_carpet"),
-			new BlockItem(TINTED_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));			
-		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_stained_glass_door"), TINTED_GLASS_DOOR);
+			new BlockItem(TINTED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_door"), TINTED_GLASS_DOOR);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_door"),
 			new BlockItem(TINTED_GLASS_DOOR, new FabricItemSettings().group(ItemGroup.REDSTONE)));			
-		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_stained_glass_fence"), TINTED_GLASS_FENCE);
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_fence"), TINTED_GLASS_FENCE);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_fence"),
 			new BlockItem(TINTED_GLASS_FENCE, new FabricItemSettings().group(ItemGroup.DECORATIONS)));			
-		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_stained_glass_gate"), TINTED_GLASS_GATE);
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_gate"), TINTED_GLASS_GATE);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_gate"),
 			new BlockItem(TINTED_GLASS_GATE, new FabricItemSettings().group(ItemGroup.REDSTONE)));			
-		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_stained_glass_pressure_plate"), TINTED_GLASS_PRESSURE_PLATE);
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_pressure_plate"), TINTED_GLASS_PRESSURE_PLATE);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_pressure_plate"),
 			new BlockItem(TINTED_GLASS_PRESSURE_PLATE, new FabricItemSettings().group(ItemGroup.REDSTONE)));			
-		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_stained_glass_slab"), TINTED_GLASS_SLAB);
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_slab"), TINTED_GLASS_SLAB);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_slab"),
 			new BlockItem(TINTED_GLASS_SLAB, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));			
-		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_stained_glass_stairs"), TINTED_GLASS_STAIRS);
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_stairs"), TINTED_GLASS_STAIRS);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_stairs"),
 			new BlockItem(TINTED_GLASS_STAIRS, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));			
-		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_stained_glass_trapdoor"), TINTED_GLASS_TRAPDOOR);
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_trapdoor"), TINTED_GLASS_TRAPDOOR);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_trapdoor"),
 			new BlockItem(TINTED_GLASS_TRAPDOOR, new FabricItemSettings().group(ItemGroup.REDSTONE)));			
-		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_stained_glass_wall"), TINTED_GLASS_WALL);
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_wall"), TINTED_GLASS_WALL);
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_wall"),
 			new BlockItem(TINTED_GLASS_WALL, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 	}
