@@ -9,7 +9,7 @@ public class TsumikiClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GURASU, RenderLayer.getTranslucent());
-	// glass	
+		// glass	
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_DOOR, RenderLayer.getTranslucent());
@@ -20,8 +20,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GLASS_WALL, RenderLayer.getTranslucent());
-	// white	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.WHITE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// white	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.WHITE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.WHITE_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.WHITE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.WHITE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -31,8 +31,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.WHITE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.WHITE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.WHITE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// pink	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PINK_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// pink	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PINK_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PINK_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PINK_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PINK_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -42,8 +42,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PINK_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PINK_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PINK_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// red	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.RED_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// red	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.RED_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.RED_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.RED_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.RED_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -53,8 +53,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.RED_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.RED_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.RED_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// orange	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// orange	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -64,8 +64,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// yellow	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// yellow	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -75,8 +75,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// lime	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIME_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// lime	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIME_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIME_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIME_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIME_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -86,8 +86,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIME_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIME_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIME_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// green	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GREEN_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// green	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GREEN_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GREEN_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GREEN_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GREEN_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -97,8 +97,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GREEN_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GREEN_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GREEN_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// cyan	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.CYAN_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// cyan	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.CYAN_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.CYAN_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.CYAN_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.CYAN_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -108,8 +108,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.CYAN_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.CYAN_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.CYAN_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// light blue	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_BLUE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// light blue	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_BLUE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_BLUE_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_BLUE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_BLUE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -119,8 +119,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_BLUE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_BLUE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_BLUE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// blue	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLUE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// blue	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLUE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLUE_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLUE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLUE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -130,8 +130,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLUE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLUE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLUE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// purple	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PURPLE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// purple	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PURPLE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PURPLE_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PURPLE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PURPLE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -141,8 +141,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PURPLE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PURPLE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.PURPLE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// magenta	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.MAGENTA_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// magenta	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.MAGENTA_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.MAGENTA_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.MAGENTA_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.MAGENTA_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -152,8 +152,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.MAGENTA_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.MAGENTA_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.MAGENTA_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// brown	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BROWN_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// brown	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BROWN_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BROWN_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BROWN_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BROWN_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -163,8 +163,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BROWN_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BROWN_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BROWN_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// light gray	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_GRAY_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// light gray	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_GRAY_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_GRAY_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_GRAY_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_GRAY_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -174,8 +174,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_GRAY_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_GRAY_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.LIGHT_GRAY_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// gray	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GRAY_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// gray	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GRAY_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GRAY_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GRAY_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GRAY_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -185,8 +185,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GRAY_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GRAY_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.GRAY_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// black	
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLACK_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// black	
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLACK_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLACK_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLACK_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLACK_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
@@ -196,8 +196,8 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLACK_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLACK_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.BLACK_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
-	// might need to change this
-	BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINTED_GLASS_BUTTON, RenderLayer.getTranslucent());
+		// might need to change this
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINTED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINTED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINTED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.TINTED_GLASS_FENCE, RenderLayer.getTranslucent());
