@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
   "parent": "tsumiki:block/light_blue_stained_glass_carpet"
 }
+=======
+  "parent": "tsumiki:block/light_blue_glass_carpet"
+}
+>>>>>>> 3b7140e941d540d224143d790f213f28188fec68

@@ -12,7 +12,7 @@ color_stained_glass
 	stairs
 	trapdoors
 	walls
-					
+	
 wool
 	buttons
 	doors
