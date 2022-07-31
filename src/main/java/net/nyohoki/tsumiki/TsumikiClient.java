@@ -55,17 +55,17 @@ public class TsumikiClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.RED_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
 		
 		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTONGLASS_CARPET, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTONGLASS_DOOR, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTONGLASS_FENCE, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTONGLASS_GATE, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTONGLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTONGLASS_SLAB, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTONGLASS_STAIRS, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTONGLASS_TRAPDOOR, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_BUTTONGLASS_WALL, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_GATE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_PRESSURE_PLATE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_SLAB, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_STAIRS, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_TRAPDOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.ORANGE_STAINED_GLASS_WALL, RenderLayer.getTranslucent());
 		
-		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_BUTTONGLASS_BUTTON, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_BUTTON, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_CARPET, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_DOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(Tsumiki.YELLOW_STAINED_GLASS_FENCE, RenderLayer.getTranslucent());
