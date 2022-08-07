@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "tsumiki:block/tinted_glass_slab"
+		},
+		"type=double": {
+			"model": "minecraft:block/tinted_glass"
+		},
+		"type=top": {
+			"model": "tsumiki:block/tinted_glass_slab_top"
+		}
+	}
+}
