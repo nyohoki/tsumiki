@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "": {
-            "model": "tsumiki:block/black_stained_glass_carpet"
-        }
-    }
+	"variants": {			// blah
+		"": {			// blah
+			"model": "tsumiki:block/black_stained_glass_carpet"
+		}
+	}
 }
