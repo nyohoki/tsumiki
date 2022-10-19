@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/template_fence_gate_wall",
-  "textures": {
-    "texture": "minecraft:block/glass"
-  }
+	"parent": "minecraft:block/template_fence_gate_wall",
+	"textures": {
+		"texture": "minecraft:block/glass"
+	}
 }
