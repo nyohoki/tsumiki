@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tsumiki:glass_fence"
+    "tsumiki:glass_fence",
+    "tsumiki:blue_stained_glass_fence"
   ]
 }
