@@ -25,13 +25,41 @@ wool
 	walls
 	
 wood
+		oak_wood
+		spruce_wood
+		birch_wood
+		jungle_wood
+		acacia_wood
+		dark_oak_wood
+		mangrove_wood
+		crimson_hyphae
+		warped_hyphae
 	carpets
 	walls
 	
 stone
+		stone
+		cobblestone
+		diorite
+		polished_diorite
+		andesite
+		polished_andesite
+		granite
+		polished_granite
+		deepslate
+		cobbled_deepslate
+		polished_deepslate
+		deepslate_bricks
+		deepslate_tiles		
 	buttons?
 	carpets
 	doors
 	fences
 	gates
 	trapdoors
+
+obisdian
+all
+
+sculk
+all
