@@ -18,7 +18,7 @@ public class Tsumiki implements ModInitializer {
 
 	// nyohoki block
 	public static final Block GURASU = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	
+
 	// glass block
 	// clear glass
 	public static final Block GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
