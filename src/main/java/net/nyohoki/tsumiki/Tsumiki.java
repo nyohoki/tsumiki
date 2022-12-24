@@ -603,7 +603,8 @@ public class Tsumiki implements ModInitializer {
 		Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_trapdoor"), new BlockItem(TINTED_GLASS_TRAPDOOR, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 		
 	// wall
-		// blockRegistry.register(Registry.BLOCK, new Identifier("tsumiki", "glass_wall"), GLASS_WALL);
+		//block
+		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "glass_wall"), GLASS_WALL);
 		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "white_stained_glass_wall"), WHITE_STAINED_GLASS_WALL);
 		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "pink_stained_glass_wall"), PINK_STAINED_GLASS_WALL);
 		Registry.register(Registry.BLOCK, new Identifier("tsumiki", "red_stained_glass_wall"), RED_STAINED_GLASS_WALL);

@@ -3,7 +3,7 @@
 		"powered=false": {
 			"model": "tsumiki:block/orange_stained_glass_pressure_plate"
 		},
-		"poweored=true": {
+		"powered=true": {
 			"model": "tsumiki:block/orange_stained_glass_pressure_plate_down"
 		}
 	}
