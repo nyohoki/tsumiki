@@ -26,11 +26,11 @@ wool
 	
 wood	-	carpets, walls
 	oak_wood
-	spruce_wood
+	dark_oak_wood
 	birch_wood
+	spruce_wood
 	jungle_wood
 	acacia_wood
-	dark_oak_wood
 	mangrove_wood
 	crimson_hyphae
 	warped_hyphae
