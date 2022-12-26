@@ -1,6 +1,39 @@
 {
-  "replace": false,
-  "values": [
-    "tsumiki:glass_door"
-  ]
+	"replace": false,
+	"values": [
+		"tsumiki:glass_door",
+		"tsumiki:white_stained_glass_door",
+		"tsumiki:pink_stained_glass_door",
+		"tsumiki:red_stained_glass_door",
+		"tsumiki:orange_stained_glass_door",
+		"tsumiki:yellow_stained_glass_door",
+		"tsumiki:lime_stained_glass_door",
+		"tsumiki:green_stained_glass_door",
+		"tsumiki:cyan_stained_glass_door",
+		"tsumiki:light_blue_stained_glass_door",
+		"tsumiki:blue_stained_glass_door",
+		"tsumiki:purple_stained_glass_door",
+		"tsumiki:magenta_stained_glass_door",
+		"tsumiki:brown_stained_glass_door",
+		"tsumiki:light_gray_stained_glass_door",
+		"tsumiki:gray_stained_glass_door",
+		"tsumiki:black_stained_glass_door",
+		"tsumiki:tinted_glass_door",
+		"tsumiki:white_wool_door",
+		"tsumiki:pink_wool_door",
+		"tsumiki:red_wool_door",
+		"tsumiki:orange_wool_door",
+		"tsumiki:yellow_wool_door",
+		"tsumiki:lime_wool_door",
+		"tsumiki:green_wool_door",
+		"tsumiki:cyan_wool_door",
+		"tsumiki:light_blue_wool_door",
+		"tsumiki:blue_wool_door",
+		"tsumiki:purple_wool_door",
+		"tsumiki:magenta_wool_door",
+		"tsumiki:brown_wool_door",
+		"tsumiki:light_gray_wool_door",
+		"tsumiki:gray_wool_door",
+		"tsumiki:black_wool_door",
+	]
 }
