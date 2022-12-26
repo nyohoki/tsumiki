@@ -24,7 +24,7 @@ wool
 	trapdoors
 	walls
 	
-wood
+wood	-	carpets, walls
 	oak_wood
 	spruce_wood
 	birch_wood
@@ -34,10 +34,8 @@ wood
 	mangrove_wood
 	crimson_hyphae
 	warped_hyphae
-		carpets
-		walls
 	
-stone
+stone	-	buttons? carpets, doors, fences, gates, trapdoors
 	stone
 	cobblestone
 	diorite
@@ -50,16 +48,9 @@ stone
 	cobbled_deepslate
 	polished_deepslate
 	deepslate_bricks
-	deepslate_tiles		
-		buttons?
-		carpets
-		doors
-		fences
-		gates
-		trapdoors
+	deepslate_tile
 
-obisdian
-all
+obisdian	-	all
 
-sculk
-all
+
+sculk	-	all
