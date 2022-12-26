@@ -910,19 +910,19 @@ public class Tsumiki implements ModInitializer {
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "white_wool_stairs"), WHITE_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "pink_wool_stairs"), PINK_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "red_wool_stairs"), RED_WOOL_STAIRS);
-	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "orange_wool_stairs"), ORANGE_STAINED_GLASS_STAIRS);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "orange_wool_stairs"), ORANGE_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "yellow_wool_stairs"), YELLOW_WOOL_STAIRS);
-	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "lime_wool_stairs"), LIME_STAINED_GLASS_STAIRS);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "lime_wool_stairs"), LIME_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "green_wool_stairs"), GREEN_WOOL_STAIRS);
-	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "cyan_wool_stairs"), CYAN_STAINED_GLASS_STAIRS);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "cyan_wool_stairs"), CYAN_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_blue_wool_stairs"), LIGHT_BLUE_WOOL_STAIRS);
-	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "blue_wool_stairs"), BLUE_STAINED_GLASS_STAIRS);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "blue_wool_stairs"), BLUE_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "purple_wool_stairs"), PURPLE_WOOL_STAIRS);
-	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "magenta_wool_stairs"), MAGENTA_STAINED_GLASS_STAIRS);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "magenta_wool_stairs"), MAGENTA_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "brown_wool_stairs"), BROWN_WOOL_STAIRS);
-	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_gray_wool_stairs"), LIGHT_GRAY_STAINED_GLASS_STAIRS);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_gray_wool_stairs"), LIGHT_GRAY_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "gray_wool_stairs"), GRAY_WOOL_STAIRS);
-	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "black_wool_stairs"), BLACK_STAINED_GLASS_STAIRS);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "black_wool_stairs"), BLACK_WOOL_STAIRS);
 
 	// item
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_stairs"), new BlockItem(GLASS_STAIRS, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
