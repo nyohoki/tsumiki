@@ -908,7 +908,7 @@ public class Tsumiki implements ModInitializer {
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_stairs"), TINTED_GLASS_STAIRS);
 
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "white_wool_stairs"), WHITE_WOOL_STAIRS);
-	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "pink_wool_stairs"), PINK_STAINED_GLASS_STAIRS);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "pink_wool_stairs"), PINK_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "red_wool_stairs"), RED_WOOL_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "orange_wool_stairs"), ORANGE_STAINED_GLASS_STAIRS);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "yellow_wool_stairs"), YELLOW_WOOL_STAIRS);
