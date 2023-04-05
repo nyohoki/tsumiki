@@ -235,6 +235,7 @@ public class Tsumiki implements ModInitializer {
 	public static final Block GRAY_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
 	public static final Block BLACK_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
 
+		
 // slab
 	// glass
 	public static final Block GLASS_SLAB = new SlabBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
