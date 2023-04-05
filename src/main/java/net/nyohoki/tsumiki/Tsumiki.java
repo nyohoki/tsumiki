@@ -217,24 +217,22 @@ public class Tsumiki implements ModInitializer {
 	public static final Block TINTED_GLASS_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 
 	// wool
-	String TsumikiWoolPlate = TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
 	public static final Block WHITE_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block PINK_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block RED_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block ORANGE_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block YELLOW_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block LIME_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block GREEN_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block CYAN_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block LIGHT_BLUE_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block BLUE_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block PURPLE_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block MAGENTA_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block BROWN_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block LIGHT_GRAY_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block GRAY_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-	public static final Block BLACK_WOOL_PRESSURE_PLATE = new TsumikiWoolPlate
-
+	public static final Block PINK_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block RED_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block ORANGE_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block YELLOW_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block LIME_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block GREEN_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block CYAN_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block LIGHT_BLUE_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block BLUE_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block PURPLE_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block MAGENTA_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block BROWN_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block LIGHT_GRAY_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block GRAY_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block BLACK_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
 		
 // slab
 	// glass
