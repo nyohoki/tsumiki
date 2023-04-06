@@ -1,18 +1,17 @@
 {
 	"type": "minecraft:crafting_shaped",
-	"group": "wooden_stairs",
+	"pattern": [
+		"*  ",
+		"** ",
+		"***"
+	],
 	"key": {
-		"#": {
-			"item": "minecraft:black_wool"
+		"*": {
+			"tag": "minecraft:black_wool"
 		}
 	},
-	"pattern": [
-		"#  ",
-		"## ",
-		"###"
-	],
 	"result": {
-		"count": 4,
-		"item": "tsumiki:black_wool_stairs"
+		"item": "tsumiki:black_wool_stairs",
+		"count": 4
 	}
 }
