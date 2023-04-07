@@ -1,12 +1,12 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-		"*  ",
-		"** ",
-		"***"
+		"オ  ",
+		"オオ ",
+		"オオオ"
 	],
 	"key": {
-		"*": {
+		"オ": {
 			"item": "minecraft:black_wool"
 		}
 	},
