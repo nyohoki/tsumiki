@@ -1,0 +1,23 @@
+{
+	"replace": false,
+	"values": [
+		"tsumiki:glass_carpet",
+		"tsumiki:white_stained_glass_carpet",
+		"tsumiki:pink_stained_glass_carpet",
+		"tsumiki:red_stained_glass_carpet",
+		"tsumiki:orange_stained_glass_carpet",
+		"tsumiki:yellow_stained_glass_carpet",
+		"tsumiki:lime_stained_glass_carpet",
+		"tsumiki:green_stained_glass_carpet",
+		"tsumiki:cyan_stained_glass_carpet",
+		"tsumiki:light_blue_stained_glass_carpet",
+		"tsumiki:blue_stained_glass_carpet",
+		"tsumiki:purple_stained_glass_carpet",
+		"tsumiki:magenta_stained_glass_carpet",
+		"tsumiki:brown_stained_glass_carpet",
+		"tsumiki:light_gray_stained_glass_carpet",
+		"tsumiki:gray_stained_glass_carpet",
+		"tsumiki:black_stained_glass_carpet",
+		"tsumiki:tinted_glass_carpet"
+	]
+}
