@@ -1,18 +1,17 @@
 {
 	"type": "minecraft:crafting_shaped",
-	"group": "wool_stairs",
+	"pattern": [
+		"*  ",
+		"** ",
+		"***"
+	],
 	"key": {
-		"#": {
+		"*": {
 			"item": "minecraft:black_stained_glass"
 		}
 	},
-	"pattern": [
-		"#",
-		"##",
-		"###"
-	],
 	"result": {
-		"count": 4,
-		"item": "tsumiki:black_stained_glass_stairs"
+		"item": "tsumiki:black_stained_glass_stairs",
+		"count": 4
 	}
 }
