@@ -17,7 +17,9 @@ public class Tsumiki implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	// nyohoki block
-	public static final Block GURASU = new Block(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GURASU =
+		new Block(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 // button
 	// glass
 	public static final Block GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
