@@ -566,7 +566,7 @@ public class Tsumiki implements ModInitializer {
 	Registry.register(Registry.BLOCK,
 		new Identifier("tsumiki", "deepslate_brick_carpet"),
 		DEEPSLATE_BRICK_CARPET);
-	Registry.register(Registry.Item,
+	Registry.register(Registry.ITEM,
 		new Identifier("tsumiki", "deepslate_brick_carpet"),
 		new BlockItem(DEEPSLATE_BRICK_CARPET,
 		new FabricItemSettings().group(ItemGroup.DECORATIONS)));
@@ -575,9 +575,18 @@ public class Tsumiki implements ModInitializer {
 		new Identifier("tsumiki", "glass_carpet"),
 		new BlockItem(GLASS_CARPET,
 		new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "white_stained_glass_carpet"), new BlockItem(WHITE_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "pink_stained_glass_carpet"), new BlockItem(PINK_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "red_stained_glass_carpet"), new BlockItem(RED_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	Registry.register(Registry.ITEM,
+		new Identifier("tsumiki", "white_stained_glass_carpet"),
+		new BlockItem(WHITE_STAINED_GLASS_CARPET,
+		new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	Registry.register(Registry.ITEM,
+		new Identifier("tsumiki", "pink_stained_glass_carpet"),
+		new BlockItem(PINK_STAINED_GLASS_CARPET,
+		new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	Registry.register(Registry.ITEM,
+		new Identifier("tsumiki", "red_stained_glass_carpet"),
+		new BlockItem(RED_STAINED_GLASS_CARPET,
+		new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "orange_stained_glass_carpet"), new BlockItem(ORANGE_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "yellow_stained_glass_carpet"), new BlockItem(YELLOW_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "lime_stained_glass_carpet"), new BlockItem(LIME_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
