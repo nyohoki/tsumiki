@@ -15,49 +15,113 @@ import org.slf4j.LoggerFactory;
 public class Tsumiki implements ModInitializer {
 	public static final String MOD_ID = "tsumiki";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-
-	// nyohoki block
+	// nyohoki block might be able to remove this later
 	public static final Block GURASU =
 		new Block(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-// button
-	// glass
-	public static final Block GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block WHITE_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block PINK_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block RED_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block ORANGE_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block YELLOW_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block LIME_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block GREEN_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block CYAN_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block LIGHT_BLUE_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block BLUE_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block PURPLE_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block MAGENTA_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block BROWN_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block LIGHT_GRAY_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block GRAY_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block BLACK_STAINED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block TINTED_GLASS_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block WHITE_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block PINK_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block RED_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block ORANGE_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block YELLOW_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIME_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GREEN_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block CYAN_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIGHT_BLUE_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block BLUE_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block PURPLE_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block MAGENTA_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block BROWN_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block LIGHT_GRAY_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block GRAY_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block BLACK_STAINED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block TINTED_GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 
-	// wool
-	public static final Block WHITE_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block PINK_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block RED_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block ORANGE_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block YELLOW_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block LIME_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block GREEN_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block CYAN_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block LIGHT_BLUE_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block BLUE_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block PURPLE_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block MAGENTA_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block BROWN_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block LIGHT_GRAY_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block GRAY_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block BLACK_WOOL_BUTTON = new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block WHITE_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block PINK_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block RED_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block ORANGE_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block YELLOW_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block LIME_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block GREEN_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block CYAN_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block LIGHT_BLUE_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block BLUE_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block PURPLE_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block MAGENTA_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block BROWN_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block LIGHT_GRAY_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block GRAY_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	public static final Block BLACK_WOOL_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL));
 
 // carpet
 	// glass
@@ -78,7 +142,12 @@ public class Tsumiki implements ModInitializer {
 	public static final Block LIGHT_GRAY_STAINED_GLASS_CARPET = new CarpetBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	public static final Block GRAY_STAINED_GLASS_CARPET = new CarpetBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
 	public static final Block BLACK_STAINED_GLASS_CARPET = new CarpetBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
-	public static final Block TINTED_GLASS_CARPET = new CarpetBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block TINTED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
+	public static final Block DEEPSLATE_BRICK_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.STONE)
+		.strength(6f).nonOpaque().sounds(BlockSoundGroup.STONE));
 
 // door
 	// glass
@@ -235,7 +304,7 @@ public class Tsumiki implements ModInitializer {
 	public static final Block LIGHT_GRAY_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
 	public static final Block GRAY_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
 	public static final Block BLACK_WOOL_PRESSURE_PLATE = new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-		
+
 // slab
 	// glass
 	public static final Block GLASS_SLAB = new SlabBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS));
@@ -493,8 +562,19 @@ public class Tsumiki implements ModInitializer {
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "gray_stained_glass_carpet"), GRAY_STAINED_GLASS_CARPET);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "black_stained_glass_carpet"), BLACK_STAINED_GLASS_CARPET);
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_carpet"), TINTED_GLASS_CARPET);
+
+	Registry.register(Registry.BLOCK,
+		new Identifier("tsumiki", "deepslate_brick_carpet"),
+		DEEPSLATE_BRICK_CARPET);
+	Registry.register(Registry.Item,
+		new Identifier("tsumiki", "deepslate_brick_carpet"),
+		new BlockItem(DEEPSLATE_BRICK_CARPET,
+		new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 	// item
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "glass_carpet"), new BlockItem(GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	Registry.register(Registry.ITEM,
+		new Identifier("tsumiki", "glass_carpet"),
+		new BlockItem(GLASS_CARPET,
+		new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "white_stained_glass_carpet"), new BlockItem(WHITE_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "pink_stained_glass_carpet"), new BlockItem(PINK_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "red_stained_glass_carpet"), new BlockItem(RED_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
