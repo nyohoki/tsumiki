@@ -566,7 +566,7 @@ public class Tsumiki implements ModInitializer {
 	Registry.register(Registry.BLOCK,
 		new Identifier("tsumiki", "deepslate_brick_carpet"),
 		DEEPSLATE_BRICK_CARPET);
-	Registry.register(Registry.Item,
+	Registry.register(Registry.ITEM,
 		new Identifier("tsumiki", "deepslate_brick_carpet"),
 		new BlockItem(DEEPSLATE_BRICK_CARPET,
 		new FabricItemSettings().group(ItemGroup.DECORATIONS)));
