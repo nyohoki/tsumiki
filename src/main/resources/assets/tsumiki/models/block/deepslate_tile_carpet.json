@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:block/carpet",
 	"textures": {
-		"wool": "minecraft:block/deepslate_tile"
+		"wool": "minecraft:block/deepslate_tiles"
 	}
 }
