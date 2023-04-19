@@ -20,79 +20,776 @@ public class Tsumiki implements ModInitializer {
 		new Block(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	// clear glass blocks
+	public static final Block GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
 	public static final Block GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// white stained glass blocks
 	public static final Block WHITE_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block WHITE_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block WHITE_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block WHITE_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block WHITE_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block WHITE_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block WHITE_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block WHITE_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block WHITE_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block WHITE_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// pink stained glass blocks
 	public static final Block PINK_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block PINK_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PINK_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PINK_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PINK_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PINK_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PINK_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PINK_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PINK_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PINK_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// red stained glass blocks	
 	public static final Block RED_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block RED_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block RED_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block RED_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block RED_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block RED_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block RED_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block RED_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block RED_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block RED_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// orange stained glass blocks
 	public static final Block ORANGE_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block ORANGE_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block ORANGE_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block ORANGE_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block ORANGE_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block ORANGE_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block ORANGE_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block ORANGE_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block ORANGE_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block ORANGE_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// yellow stained glass blocks
 	public static final Block YELLOW_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block YELLOW_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block YELLOW_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block YELLOW_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS).
+		strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block YELLOW_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block YELLOW_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block YELLOW_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block YELLOW_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block YELLOW_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block YELLOW_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// lime stained glass blocks
 	public static final Block LIME_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block LIME_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIME_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIME_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIME_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIME_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIME_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIME_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIME_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIME_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// green stained glass block
 	public static final Block GREEN_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block GREEN_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GREEN_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GREEN_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GREEN_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GREEN_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GREEN_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GREEN_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GREEN_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GREEN_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// cyan stained glass blocks
 	public static final Block CYAN_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block CYAN_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block CYAN_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block CYAN_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block CYAN_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block CYAN_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block CYAN_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block CYAN_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block CYAN_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block CYAN_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// light blue stained glass blocks
 	public static final Block LIGHT_BLUE_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// blue stained glass blocks	
 	public static final Block BLUE_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block BLUE_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLUE_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLUE_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLUE_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLUE_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLUE_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLUE_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLUE_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLUE_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// purple stained glass blocks
 	public static final Block PURPLE_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block PURPLE_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PURPLE_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PURPLE_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PURPLE_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PURPLE_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PURPLE_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PURPLE_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PURPLE_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block PURPLE_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// magenta stained glass blocks
 	public static final Block MAGENTA_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block MAGENTA_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block MAGENTA_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block MAGENTA_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block MAGENTA_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block MAGENTA_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block MAGENTA_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block MAGENTA_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block MAGENTA_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block MAGENTA_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// brown stained glass blocks
 	public static final Block BROWN_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block BROWN_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BROWN_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BROWN_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BROWN_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BROWN_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BROWN_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BROWN_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BROWN_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BROWN_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// light gray stained glass blocks
 	public static final Block LIGHT_GRAY_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// gray stained glass blocks	
 	public static final Block GRAY_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block GRAY_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GRAY_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GRAY_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GRAY_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GRAY_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GRAY_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GRAY_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GRAY_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// black stained glass blocks	
 	public static final Block BLACK_STAINED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
+	public static final Block BLACK_STAINED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLACK_STAINED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLACK_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLACK_STAINED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLACK_STAINED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLACK_STAINED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLACK_STAINED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLACK_STAINED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block BLACK_STAINED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	// tinted glass blocks
 	public static final Block TINTED_GLASS_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
-
+	public static final Block TINTED_GLASS_CARPET =
+		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block TINTED_GLASS_DOOR =
+		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block TINTED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block TINTED_GLASS_GATE =
+		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block TINTED_GLASS_PRESSURE_PLATE =
+		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
+		FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block TINTED_GLASS_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block TINTED_GLASS_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
+		.nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block TINTED_GLASS_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block TINTED_GLASS_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
 	public static final Block WHITE_WOOL_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
@@ -158,163 +855,50 @@ public class Tsumiki implements ModInitializer {
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
 
-// carpet
-	// glass
-	public static final Block GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block WHITE_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-	);
-	public static final Block PINK_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block RED_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block ORANGE_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block YELLOW_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIME_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GREEN_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block CYAN_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_BLUE_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLUE_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PURPLE_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block MAGENTA_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BROWN_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_GRAY_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GRAY_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLACK_STAINED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block TINTED_GLASS_CARPET =
-		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-
+	// deepslate brick blocks
 	public static final Block DEEPSLATE_BRICK_CARPET =
 		new CarpetBlock(FabricBlockSettings.of(Material.STONE)
 		.strength(6f).nonOpaque().sounds(BlockSoundGroup.STONE)
 		);
+	// deepslate tile blocks
 	public static final Block DEEPSLATE_TILE_CARPET =
 		new CarpetBlock(FabricBlockSettings.of(Material.STONE)
 		.strength(6f).nonOpaque().sounds(BlockSoundGroup.STONE)
 		);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // door
 	// glass
-	public static final Block GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block WHITE_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PINK_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block RED_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block ORANGE_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block YELLOW_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIME_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GREEN_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block CYAN_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_BLUE_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLUE_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PURPLE_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block MAGENTA_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BROWN_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_GRAY_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GRAY_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLACK_STAINED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block TINTED_GLASS_DOOR =
-		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	// wool
 	public static final Block WHITE_WOOL_DOOR =
 		new DoorBlock(FabricBlockSettings.of(Material.WOOL)
@@ -382,78 +966,23 @@ public class Tsumiki implements ModInitializer {
 		);
 // fence
 	// glass
-	public static final Block GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block WHITE_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PINK_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block RED_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block ORANGE_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block YELLOW_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS).
-		strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIME_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GREEN_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block CYAN_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_BLUE_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLUE_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PURPLE_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block MAGENTA_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BROWN_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_GRAY_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GRAY_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLACK_STAINED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block TINTED_GLASS_FENCE =
-		new FenceBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	// wool
 	public static final Block WHITE_WOOL_FENCE =
 		new FenceBlock(FabricBlockSettings.of(Material.WOOL)
@@ -521,78 +1050,21 @@ public class Tsumiki implements ModInitializer {
 		);
 // gate
 	// glass
-	public static final Block GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block WHITE_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PINK_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block RED_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block ORANGE_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block YELLOW_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIME_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GREEN_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block CYAN_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_BLUE_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLUE_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PURPLE_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block MAGENTA_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BROWN_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_GRAY_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GRAY_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLACK_STAINED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block TINTED_GLASS_GATE =
-		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	// wool
 	public static final Block WHITE_WOOL_GATE =
@@ -662,96 +1134,24 @@ public class Tsumiki implements ModInitializer {
 
 // pressure plate
 	// glass
-	public static final Block GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block WHITE_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PINK_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block RED_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block ORANGE_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block YELLOW_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIME_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GREEN_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block CYAN_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_BLUE_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLUE_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PURPLE_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block MAGENTA_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BROWN_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_GRAY_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GRAY_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLACK_STAINED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block TINTED_GLASS_PRESSURE_PLATE =
-		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
-		FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	// wool
 	public static final Block WHITE_WOOL_PRESSURE_PLATE =
@@ -837,78 +1237,22 @@ public class Tsumiki implements ModInitializer {
 
 // slab
 	// glass
-	public static final Block GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block WHITE_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PINK_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block RED_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block ORANGE_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block YELLOW_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIME_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GREEN_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block CYAN_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_BLUE_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLUE_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PURPLE_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block MAGENTA_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BROWN_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_GRAY_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GRAY_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLACK_STAINED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block TINTED_GLASS_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	// wool
 	public static final Block WHITE_WOOL_SLAB =
@@ -978,96 +1322,20 @@ public class Tsumiki implements ModInitializer {
 
 // stairs
 	// glass
-	public static final Block GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block WHITE_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PINK_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block RED_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block ORANGE_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block YELLOW_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIME_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GREEN_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block CYAN_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_BLUE_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLUE_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PURPLE_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block MAGENTA_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BROWN_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_GRAY_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GRAY_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLACK_STAINED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block TINTED_GLASS_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.GLASS).strength(0.3f)
-		.nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
 
 	// wool
 	public static final Block WHITE_WOOL_STAIRS =
@@ -1153,78 +1421,23 @@ public class Tsumiki implements ModInitializer {
 
 // trapdoor
 	// glass
-	public static final Block GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block WHITE_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PINK_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block RED_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block ORANGE_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block YELLOW_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIME_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GREEN_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block CYAN_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_BLUE_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLUE_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PURPLE_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block MAGENTA_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BROWN_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_GRAY_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GRAY_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLACK_STAINED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block TINTED_GLASS_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	// wool
 	public static final Block WHITE_WOOL_TRAPDOOR =
@@ -1293,96 +1506,88 @@ public class Tsumiki implements ModInitializer {
 		);
 // wall
 	// glass
-	public static final Block GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block WHITE_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PINK_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block RED_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block ORANGE_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block YELLOW_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIME_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GREEN_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block CYAN_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_BLUE_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLUE_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block PURPLE_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block MAGENTA_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BROWN_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block LIGHT_GRAY_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GRAY_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block BLACK_STAINED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block TINTED_GLASS_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	// wool
-	public static final Block WHITE_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block PINK_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block RED_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block ORANGE_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block YELLOW_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block LIME_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block GREEN_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block CYAN_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block LIGHT_BLUE_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block BLUE_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block PURPLE_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block MAGENTA_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block BROWN_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block LIGHT_GRAY_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block GRAY_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
-	public static final Block BLACK_WOOL_WALL = new WallBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f).sounds(BlockSoundGroup.WOOL));
+	
+	
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	// wool
+	public static final Block WHITE_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block PINK_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block RED_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block ORANGE_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block YELLOW_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIME_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block GREEN_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block CYAN_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIGHT_BLUE_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BLUE_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block PURPLE_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block MAGENTA_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BROWN_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIGHT_GRAY_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block GRAY_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BLACK_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Henlo Fren :3c");
