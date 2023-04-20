@@ -1085,6 +1085,23 @@ public class Tsumiki implements ModInitializer {
 		FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
+	public static final Block CYAN_WOOL_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block CYAN_WOOL_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
+		.sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block CYAN_WOOL_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block CYAN_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
 // light blue wool blocks
 	public static final Block LIGHT_BLUE_WOOL_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
@@ -1105,6 +1122,23 @@ public class Tsumiki implements ModInitializer {
 	public static final Block LIGHT_BLUE_WOOL_PRESSURE_PLATE =
 		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
 		FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIGHT_BLUE_WOOL_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIGHT_BLUE_WOOL_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
+		.sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIGHT_BLUE_WOOL_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIGHT_BLUE_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
 // blue wool blocks
@@ -1129,6 +1163,23 @@ public class Tsumiki implements ModInitializer {
 		FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
+	public static final Block BLUE_WOOL_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BLUE_WOOL_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
+		.sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BLUE_WOOL_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BLUE_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
 // purple wool blocks
 	public static final Block PURPLE_WOOL_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
@@ -1149,6 +1200,23 @@ public class Tsumiki implements ModInitializer {
 	public static final Block PURPLE_WOOL_PRESSURE_PLATE =
 		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
 		FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block PURPLE_WOOL_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block PURPLE_WOOL_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
+		.sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block PURPLE_WOOL_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block PURPLE_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
 // magenta wool blocks
@@ -1173,6 +1241,23 @@ public class Tsumiki implements ModInitializer {
 		FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
+	public static final Block MAGENTA_WOOL_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block MAGENTA_WOOL_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
+		.sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block MAGENTA_WOOL_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block MAGENTA_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
 // brown wool blocks
 	public static final Block BROWN_WOOL_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
@@ -1193,6 +1278,23 @@ public class Tsumiki implements ModInitializer {
 	public static final Block BROWN_WOOL_PRESSURE_PLATE =
 		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
 		FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BROWN_WOOL_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BROWN_WOOL_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
+		.sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BROWN_WOOL_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BROWN_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
 // light gray wool blocks
@@ -1217,6 +1319,23 @@ public class Tsumiki implements ModInitializer {
 		FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
+	public static final Block LIGHT_GRAY_WOOL_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIGHT_GRAY_WOOL_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
+		.sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIGHT_GRAY_WOOL_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block LIGHT_GRAY_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
 // gray wool blocks
 	public static final Block GRAY_WOOL_BUTTON =
 		new StoneButtonBlock(FabricBlockSettings.of(Material.WOOL)
@@ -1237,6 +1356,23 @@ public class Tsumiki implements ModInitializer {
 	public static final Block GRAY_WOOL_PRESSURE_PLATE =
 		new TsumikiPlate(PressurePlateBlock.ActivationRule.EVERYTHING,
 		FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block GRAY_WOOL_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block GRAY_WOOL_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.WOOL).strength(0.3f).
+		sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block GRAY_WOOL_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block GRAY_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
 // black wool blocks
@@ -1261,6 +1397,23 @@ public class Tsumiki implements ModInitializer {
 		FabricBlockSettings.of(Material.WOOL)
 		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
 		);
+	public static final Block BLACK_WOOL_SLAB =
+		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BLACK_WOOL_STAIRS =
+		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
+		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
+		.sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BLACK_WOOL_TRAPDOOR =
+		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
+	public static final Block BLACK_WOOL_WALL =
+		new WallBlock(FabricBlockSettings.of(Material.WOOL)
+		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
+		);
 // deepslate brick blocks
 	public static final Block DEEPSLATE_BRICK_CARPET =
 		new CarpetBlock(FabricBlockSettings.of(Material.STONE)
@@ -1272,243 +1425,6 @@ public class Tsumiki implements ModInitializer {
 		.strength(6f).nonOpaque().sounds(BlockSoundGroup.STONE)
 		);
 
-
-
-	public static final Block CYAN_WOOL_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block LIGHT_BLUE_WOOL_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BLUE_WOOL_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block PURPLE_WOOL_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block MAGENTA_WOOL_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BROWN_WOOL_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block LIGHT_GRAY_WOOL_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block GRAY_WOOL_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BLACK_WOOL_SLAB =
-		new SlabBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-
-// stairs
-	// glass
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-	// wool
-
-
-
-
-
-
-
-	public static final Block CYAN_WOOL_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
-		.sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block LIGHT_BLUE_WOOL_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
-		.sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BLUE_WOOL_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
-		.sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block PURPLE_WOOL_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
-		.sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block MAGENTA_WOOL_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
-		.sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BROWN_WOOL_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
-		.sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block LIGHT_GRAY_WOOL_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
-		.sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block GRAY_WOOL_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.WOOL).strength(0.3f).
-		sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BLACK_WOOL_STAIRS =
-		new TsumikiStairs(Tsumiki.GURASU.getDefaultState(),
-		FabricBlockSettings.of(Material.WOOL).strength(0.3f)
-		.sounds(BlockSoundGroup.WOOL)
-		);
-
-// trapdoor
-	// glass
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	// wool
-
-
-
-
-
-
-
-	public static final Block CYAN_WOOL_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block LIGHT_BLUE_WOOL_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BLUE_WOOL_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block PURPLE_WOOL_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block MAGENTA_WOOL_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BROWN_WOOL_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block LIGHT_GRAY_WOOL_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block GRAY_WOOL_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BLACK_WOOL_TRAPDOOR =
-		new TrapdoorBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-// wall
-	// glass
-	
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	// wool
-
-
-
-
-
-
-
-	public static final Block CYAN_WOOL_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block LIGHT_BLUE_WOOL_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BLUE_WOOL_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block PURPLE_WOOL_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block MAGENTA_WOOL_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BROWN_WOOL_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block LIGHT_GRAY_WOOL_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block GRAY_WOOL_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
-	public static final Block BLACK_WOOL_WALL =
-		new WallBlock(FabricBlockSettings.of(Material.WOOL)
-		.strength(0.8f).sounds(BlockSoundGroup.WOOL)
-		);
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Henlo Fren :3c");
