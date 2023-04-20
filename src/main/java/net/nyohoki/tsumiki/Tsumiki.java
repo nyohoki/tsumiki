@@ -1567,98 +1567,121 @@ public void onInitialize() {
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "lime_stained_glass_button"), LIME_STAINED_GLASS_BUTTON);
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "lime_stained_glass_button"), new BlockItem(LIME_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "lime_stained_glass_carpet"), LIME_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "lime_stained_glass_carpet"), new BlockItem(LIME_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
 // green stained glass blocks
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "green_stained_glass_button"), GREEN_STAINED_GLASS_BUTTON);
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "green_stained_glass_button"), new BlockItem(GREEN_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "green_stained_glass_carpet"), GREEN_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "green_stained_glass_carpet"), new BlockItem(GREEN_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+
 // cyan stained glass blocks
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "cyan_stained_glass_button"), CYAN_STAINED_GLASS_BUTTON);
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "cyan_stained_glass_button"), new BlockItem(CYAN_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "cyan_stained_glass_carpet"), CYAN_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "cyan_stained_glass_carpet"), new BlockItem(CYAN_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	
 // light blue stained glass blocks
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_blue_stained_glass_button"), LIGHT_BLUE_STAINED_GLASS_BUTTON);
 	Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_blue_stained_glass_button"), new BlockItem(LIGHT_BLUE_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_blue_stained_glass_carpet"), LIGHT_BLUE_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_blue_stained_glass_carpet"), new BlockItem(LIGHT_BLUE_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	
 // blue stained glass blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "blue_stained_glass_button"), BLUE_STAINED_GLASS_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "blue_stained_glass_button"), new BlockItem(BLUE_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "blue_stained_glass_carpet"), BLUE_STAINED_GLASS_CARPET);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "blue_stained_glass_button"), BLUE_STAINED_GLASS_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "blue_stained_glass_button"), new BlockItem(BLUE_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "blue_stained_glass_carpet"), BLUE_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "blue_stained_glass_carpet"), new BlockItem(BLUE_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	
 // purple stained glass blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "purple_stained_glass_button"), PURPLE_STAINED_GLASS_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "purple_stained_glass_button"), new BlockItem(PURPLE_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "purple_stained_glass_carpet"), PURPLE_STAINED_GLASS_CARPET);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "purple_stained_glass_button"), PURPLE_STAINED_GLASS_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "purple_stained_glass_button"), new BlockItem(PURPLE_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "purple_stained_glass_carpet"), PURPLE_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "purple_stained_glass_carpet"), new BlockItem(PURPLE_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	
 // magenta stained glass blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "magenta_stained_glass_button"), MAGENTA_STAINED_GLASS_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "magenta_stained_glass_button"), new BlockItem(MAGENTA_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "magenta_stained_glass_carpet"), MAGENTA_STAINED_GLASS_CARPET);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "magenta_stained_glass_button"), MAGENTA_STAINED_GLASS_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "magenta_stained_glass_button"), new BlockItem(MAGENTA_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "magenta_stained_glass_carpet"), MAGENTA_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "magenta_stained_glass_carpet"), new BlockItem(MAGENTA_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	
 // brown stained glass blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "brown_stained_glass_button"), BROWN_STAINED_GLASS_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "brown_stained_glass_button"), new BlockItem(BROWN_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "brown_stained_glass_carpet"), BROWN_STAINED_GLASS_CARPET);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "brown_stained_glass_button"), BROWN_STAINED_GLASS_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "brown_stained_glass_button"), new BlockItem(BROWN_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "brown_stained_glass_carpet"), BROWN_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "brown_stained_glass_carpet"), new BlockItem(BROWN_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	
 // light gray stained glass blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_gray_stained_glass_button"), LIGHT_GRAY_STAINED_GLASS_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_gray_stained_glass_button"), new BlockItem(LIGHT_GRAY_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_gray_stained_glass_carpet"), LIGHT_GRAY_STAINED_GLASS_CARPET);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_gray_stained_glass_button"), LIGHT_GRAY_STAINED_GLASS_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_gray_stained_glass_button"), new BlockItem(LIGHT_GRAY_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_gray_stained_glass_carpet"), LIGHT_GRAY_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_gray_stained_glass_carpet"), new BlockItem(LIGHT_GRAY_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	
 // gray stained glass blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "gray_stained_glass_button"), GRAY_STAINED_GLASS_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "gray_stained_glass_button"), new BlockItem(GRAY_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "gray_stained_glass_carpet"), GRAY_STAINED_GLASS_CARPET);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "gray_stained_glass_button"), GRAY_STAINED_GLASS_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "gray_stained_glass_button"), new BlockItem(GRAY_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "gray_stained_glass_carpet"), GRAY_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "gray_stained_glass_carpet"), new BlockItem(GRAY_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	
 // black stained glass blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "black_stained_glass_button"), BLACK_STAINED_GLASS_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "black_stained_glass_button"), new BlockItem(BLACK_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "black_stained_glass_carpet"), BLACK_STAINED_GLASS_CARPET);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "black_stained_glass_button"), BLACK_STAINED_GLASS_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "black_stained_glass_button"), new BlockItem(BLACK_STAINED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "black_stained_glass_carpet"), BLACK_STAINED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "black_stained_glass_carpet"), new BlockItem(BLACK_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+	
 // tinted glass blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_button"), TINTED_GLASS_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_button"), new BlockItem(TINTED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_carpet"), TINTED_GLASS_CARPET);
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_button"), TINTED_GLASS_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_button"), new BlockItem(TINTED_GLASS_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "tinted_glass_carpet"), TINTED_GLASS_CARPET);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_carpet"), new BlockItem(TINTED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
+
 // white wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "white_wool_button"), WHITE_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "white_wool_button"), new BlockItem(WHITE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "white_wool_button"), WHITE_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "white_wool_button"), new BlockItem(WHITE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // pink wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "pink_wool_button"), PINK_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "pink_wool_button"), new BlockItem(PINK_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "pink_wool_button"), PINK_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "pink_wool_button"), new BlockItem(PINK_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // red wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "red_wool_button"), RED_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "red_wool_button"), new BlockItem(RED_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "red_wool_button"), RED_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "red_wool_button"), new BlockItem(RED_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // orange wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "orange_wool_button"), ORANGE_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "orange_wool_button"), new BlockItem(ORANGE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "orange_wool_button"), ORANGE_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "orange_wool_button"), new BlockItem(ORANGE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // yellow wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "yellow_wool_button"), YELLOW_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "yellow_wool_button"), new BlockItem(YELLOW_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "yellow_wool_button"), YELLOW_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "yellow_wool_button"), new BlockItem(YELLOW_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // lime wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "lime_wool_button"), LIME_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "lime_wool_button"), new BlockItem(LIME_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "lime_wool_button"), LIME_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "lime_wool_button"), new BlockItem(LIME_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // green wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "green_wool_button"), GREEN_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "green_wool_button"), new BlockItem(GREEN_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "green_wool_button"), GREEN_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "green_wool_button"), new BlockItem(GREEN_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // cyan wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "cyan_wool_button"), CYAN_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "cyan_wool_button"), new BlockItem(CYAN_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "cyan_wool_button"), CYAN_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "cyan_wool_button"), new BlockItem(CYAN_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // light blue wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_blue_wool_button"), LIGHT_BLUE_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_blue_wool_button"), new BlockItem(LIGHT_BLUE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_blue_wool_button"), LIGHT_BLUE_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_blue_wool_button"), new BlockItem(LIGHT_BLUE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // blue wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "blue_wool_button"), BLUE_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "blue_wool_button"), new BlockItem(BLUE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "blue_wool_button"), BLUE_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "blue_wool_button"), new BlockItem(BLUE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // purple wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "purple_wool_button"), PURPLE_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "purple_wool_button"), new BlockItem(PURPLE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "purple_wool_button"), PURPLE_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "purple_wool_button"), new BlockItem(PURPLE_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // magenta wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "magenta_wool_button"), MAGENTA_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "magenta_wool_button"), new BlockItem(MAGENTA_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "magenta_wool_button"), MAGENTA_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "magenta_wool_button"), new BlockItem(MAGENTA_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // brown wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "brown_wool_button"), BROWN_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "brown_wool_button"), new BlockItem(BROWN_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "brown_wool_button"), BROWN_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "brown_wool_button"), new BlockItem(BROWN_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // light gray wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_gray_wool_button"), LIGHT_GRAY_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_gray_wool_button"), new BlockItem(LIGHT_GRAY_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "light_gray_wool_button"), LIGHT_GRAY_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_gray_wool_button"), new BlockItem(LIGHT_GRAY_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // gray wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "gray_wool_button"), GRAY_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "gray_wool_button"), new BlockItem(GRAY_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "gray_wool_button"), GRAY_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "gray_wool_button"), new BlockItem(GRAY_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 // block wool blocks
-Registry.register(Registry.BLOCK, new Identifier("tsumiki", "black_wool_button"), BLACK_WOOL_BUTTON);
-Registry.register(Registry.ITEM, new Identifier("tsumiki", "black_wool_button"), new BlockItem(BLACK_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
+	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "black_wool_button"), BLACK_WOOL_BUTTON);
+	Registry.register(Registry.ITEM, new Identifier("tsumiki", "black_wool_button"), new BlockItem(BLACK_WOOL_BUTTON, new FabricItemSettings().group(ItemGroup.REDSTONE)));
 
 // deepslate brick blocks
 	Registry.register(Registry.BLOCK, new Identifier("tsumiki", "deepslate_brick_carpet"), DEEPSLATE_BRICK_CARPET);
@@ -1670,19 +1693,7 @@ Registry.register(Registry.ITEM, new Identifier("tsumiki", "black_wool_button"),
 							 
 // item
 
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "lime_stained_glass_carpet"), new BlockItem(LIME_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "green_stained_glass_carpet"), new BlockItem(GREEN_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "cyan_stained_glass_carpet"), new BlockItem(CYAN_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_blue_stained_glass_carpet"), new BlockItem(LIGHT_BLUE_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "blue_stained_glass_carpet"), new BlockItem(BLUE_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "purple_stained_glass_carpet"), new BlockItem(PURPLE_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "magenta_stained_glass_carpet"), new BlockItem(MAGENTA_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "brown_stained_glass_carpet"), new BlockItem(BROWN_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "light_gray_stained_glass_carpet"), new BlockItem(LIGHT_GRAY_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "gray_stained_glass_carpet"), new BlockItem(GRAY_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "black_stained_glass_carpet"), new BlockItem(BLACK_STAINED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-	Registry.register(Registry.ITEM, new Identifier("tsumiki", "tinted_glass_carpet"), new BlockItem(TINTED_GLASS_CARPET, new FabricItemSettings().group(ItemGroup.DECORATIONS)));
-
+	
 	// door
 	// block
 	
