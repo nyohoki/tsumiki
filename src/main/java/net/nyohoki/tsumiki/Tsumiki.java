@@ -21,6 +21,10 @@ public class Tsumiki implements ModInitializer {
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
 // clear glass blocks
+	public static final Block GLASS_BUTTON =
+		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
+		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
 	public static final Block GLASS_CARPET =
 		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
@@ -35,10 +39,6 @@ public class Tsumiki implements ModInitializer {
 		);
 	public static final Block GLASS_GATE =
 		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
-		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
-		);
-	public static final Block GLASS_BUTTON =
-		new StoneButtonBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
 	public static final Block GLASS_PRESSURE_PLATE =
