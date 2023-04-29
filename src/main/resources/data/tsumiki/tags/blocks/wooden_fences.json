@@ -16,9 +16,9 @@
 		"tsumiki:magenta_stained_glass_fence",
 		"tsumiki:brown_stained_glass_fence",
 		"tsumiki:light_gray_stained_glass_fence",
-		"tsumiki:gray_stained_fence",
-		"tsumiki:black_stained_fence",
-		"tsumiki:tinted_fence",
+		"tsumiki:gray_stained_glass_fence",
+		"tsumiki:black_stained_glass_fence",
+		"tsumiki:tinted_glass_fence",
 		"tsumiki:white_wool_fence",
 		"tsumiki:pink_wool_fence",
 		"tsumiki:red_wool_fence",
@@ -34,6 +34,6 @@
 		"tsumiki:brown_wool_fence",
 		"tsumiki:light_gray_wool_fence",
 		"tsumiki:gray_wool_fence",
-		"tsumiki:black_wool_fence",
+		"tsumiki:black_wool_fence"
 	]
 }
