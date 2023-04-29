@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"   ",
+		"#*#",
+		"#*#"
+	],
+	"key": {
+		"*": {
+			"item": "minecraft:red_stained_glass"
+		},
+		"#": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "tsumiki:red_stained_glass_gate",
+		"count": 1
+	}
+}
