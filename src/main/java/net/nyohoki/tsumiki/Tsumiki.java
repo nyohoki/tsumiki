@@ -244,7 +244,7 @@ public class Tsumiki implements ModInitializer {
 		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
-	public static final Block YELLOW_STAINED_GLASS_CARPET =
+	public static final Block YELLOW_STAINED_GLASS_DOOR =
 		new CarpetBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
@@ -677,6 +677,9 @@ public class Tsumiki implements ModInitializer {
 	public static final Block GRAY_STAINED_GLASS_DOOR =
 		new DoorBlock(FabricBlockSettings.of(Material.GLASS)
 		.strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
+		);
+	public static final Block GRAY_STAINED_GLASS_FENCE =
+		new FenceBlock(FabricBlockSettings.of(Material.GLASS).strength(0.3f).nonOpaque().sounds(BlockSoundGroup.GLASS)
 		);
 	public static final Block GRAY_STAINED_GLASS_GATE =
 		new FenceGateBlock(FabricBlockSettings.of(Material.GLASS)
