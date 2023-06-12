@@ -1,39 +1,40 @@
-.vs/
-build.gradle
-build/
-gradle.properties
-gradle/
-gradlew
-gradlew.bat
-settings.gradle
-
 # gradle
+
 .gradle/
 build/
 out/
 classes/
 
 # eclipse
+
 *.launch
 
 # idea
+
 .idea/
 *.iml
 *.ipr
 *.iws
 
 # vscode
+
 .settings/
 .vscode/
 bin/
 .classpath
 .project
 
-#macos
+# macos
+
 *.DS_Store
 
-#fabic
+# fabric
+
 run/
 
-#user
-*.swp
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
