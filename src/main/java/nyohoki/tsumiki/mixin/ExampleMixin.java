@@ -1,6 +1,6 @@
-package net.nyohoki.tsumiki.mixin;
+package nyohoki.tsumiki.mixin;
 
-import net.nyohoki.tsumiki.Tsumiki;
+import nyohoki.tsumiki.Tsumiki;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

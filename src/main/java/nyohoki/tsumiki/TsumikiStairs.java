@@ -1,4 +1,4 @@
-package net.nyohoki.tsumiki;
+package nyohoki.tsumiki;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.StairsBlock;
