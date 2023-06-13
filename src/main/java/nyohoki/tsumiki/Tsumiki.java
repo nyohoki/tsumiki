@@ -2,10 +2,15 @@ package nyohoki.tsumiki;
 
 import net.fabricmc.api.ModInitializer;
 
+import nyohoki.tsumiki.block.NyohokiBlock;
+import nyohoki.tsumiki.item.NyohokiItem;
+import nyohoki.tsumiki.item.TsumikiItemGroup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Tsumiki implements ModInitializer {
+
+	public static final String MOD_ID = "tsumiki";
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
@@ -18,5 +23,11 @@ public class Tsumiki implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		TsumikiItemGroup.registerItemGroup();
+
+		// testing section
+		NyohokiBlock.registerNyohokiBlock();
+		NyohokiItem.registerNyohokiItem();
 	}
 }
