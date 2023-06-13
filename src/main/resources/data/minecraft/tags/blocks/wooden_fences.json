@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"values": [
+		"tsumiki:glass_fence",
+		"tsumiki:white_stained_glass_fence",
+		"tsumiki:pink_stained_glass_fence",
+		"tsumiki:red_stained_glass_fence",
+		"tsumiki:orange_stained_glass_fence",
+		"tsumiki:yellow_stained_glass_fence",
+		"tsumiki:lime_stained_glass_fence",
+		"tsumiki:green_stained_glass_fence",
+		"tsumiki:cyan_stained_glass_fence",
+		"tsumiki:light_blue_stained_glass_fence",
+		"tsumiki:blue_stained_glass_fence",
+		"tsumiki:purple_stained_glass_fence",
+		"tsumiki:magenta_stained_glass_fence"
+	]
+}

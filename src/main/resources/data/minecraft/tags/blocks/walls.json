@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"values": [
+		"tsumiki:glass_wall",
+		"tsumiki:white_stained_glass_wall",
+		"tsumiki:pink_stained_glass_wall",
+		"tsumiki:red_stained_glass_wall",
+		"tsumiki:orange_stained_glass_wall",
+		"tsumiki:yellow_stained_glass_wall",
+		"tsumiki:lime_stained_glass_wall",
+		"tsumiki:green_stained_glass_wall",
+		"tsumiki:cyan_stained_glass_wall",
+		"tsumiki:light_blue_stained_glass_wall",
+		"tsumiki:blue_stained_glass_wall",
+		"tsumiki:purple_stained_glass_wall",
+		"tsumiki:magenta_stained_glass_wall"
+	]
+}
