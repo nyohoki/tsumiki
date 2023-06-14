@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"***",
+		"***",
+		"***"
+	],
+	"key": {
+		"*": {
+			"item": "tsumiki:ikohoyn"
+		}
+	},
+	"result": {
+		"item": "tsumiki:nyohoki",
+		"count": 1
+	}
+}
