@@ -2,6 +2,8 @@ package nyohoki.tsumiki;
 
 import net.fabricmc.api.ModInitializer;
 
+import nyohoki.tsumiki.block.ButtonBlocks;
+import nyohoki.tsumiki.block.CarpetBlocks;
 import nyohoki.tsumiki.block.NyohokiBlock;
 import nyohoki.tsumiki.item.NyohokiItem;
 import nyohoki.tsumiki.item.TsumikiItemGroup;
@@ -29,5 +31,8 @@ public class Tsumiki implements ModInitializer {
 		// testing section
 		NyohokiBlock.registerNyohokiBlock();
 		NyohokiItem.registerNyohokiItem();
+
+		ButtonBlocks.registerButtonBlocks();
+		CarpetBlocks.registerCarpetBlocks();
 	}
 }
