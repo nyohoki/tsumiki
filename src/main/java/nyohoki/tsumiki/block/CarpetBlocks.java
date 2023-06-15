@@ -11,13 +11,17 @@ import net.minecraft.util.Identifier;
 import nyohoki.tsumiki.Tsumiki;
 
 public class CarpetBlocks {
-	public static final Block GLASS_CARPET = registerBlock("glass_carpet",
-		new CarpetBlock(FabricBlockSettings.create().mapColor(MapColor.CLEAR)
-			.strength(0.3f, 0.3f)
-			.sounds(BlockSoundGroup.GLASS)
-			.nonOpaque()
-		)
-	);
+	public static final Block GLASS_CARPET =
+		registerBlock(
+			"glass_carpet",
+			new CarpetBlock(
+				FabricBlockSettings.create()
+					.mapColor(MapColor.CLEAR)
+					.strength(0.3f, 0.3f)
+					.sounds(BlockSoundGroup.GLASS)
+					.nonOpaque()
+			)
+		);
 	public static final Block WHITE_STAINED_GLASS_CARPET = registerBlock("white_stained_glass_carpet",
 		new CarpetBlock(FabricBlockSettings.create().mapColor(MapColor.WHITE)
 			.strength(0.3f, 0.3f)
