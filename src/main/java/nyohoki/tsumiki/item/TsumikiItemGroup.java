@@ -9,9 +9,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import nyohoki.tsumiki.block.ButtonBlocks;
-import nyohoki.tsumiki.block.CarpetBlocks;
-import nyohoki.tsumiki.block.NyohokiBlock;
+import nyohoki.tsumiki.block.*;
+import nyohoki.tsumiki.item.*;
 
 public class TsumikiItemGroup {
 	public static ItemGroup TSUMIKI = Registry.register(Registries.ITEM_GROUP, new Identifier("tsumiki", "tsumiki" ),
@@ -25,6 +24,20 @@ public class TsumikiItemGroup {
 
 				entries.add(CarpetBlocks.GLASS_CARPET);
 				entries.add(CarpetBlocks.WHITE_STAINED_GLASS_CARPET);
+				
+				entries.add(FenceBlocks.GLASS_FENCE);
+				
+				entries.add(GateBlocks.GLASS_GATE);
+				
+				entries.add(PressurePlateBlocks.GLASS_PRESSURE_PLATE);
+				
+				entries.add(SlabBlocks.GLASS_SLAB);
+				
+				entries.add(StairBlocks.GLASS_STAIRS);
+				
+				entires.add(TrapdoorBlocks.GLASS_TRAPDOOR);
+				
+				entries.add(WallBlocks.GLASS_WALL);
 			}))
 			.build()
 	);
