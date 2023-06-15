@@ -18,10 +18,9 @@ public class NyohokiBlock {
 		registerBlockItem(name, block);
 		return Registry.register(Registries.BLOCK, new Identifier(Tsumiki.MOD_ID, name), block);
 	}
-	private static Item registerBlockItem(String name, Block block) {
+	private static void registerBlockItem(String name, Block block) {
 		Item item = Registry.register(Registries.ITEM, new Identifier(Tsumiki.MOD_ID, name),
 			new BlockItem(block, new FabricItemSettings()));
-		return item;
 	}
 	public static void registerNyohokiBlock() {
 		Tsumiki.LOGGER.info("Registering Nyohoki Block for " + Tsumiki.MOD_ID);

@@ -1,7 +1,9 @@
 package nyohoki.tsumiki.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -22,10 +24,14 @@ public class TsumikiItemGroup {
 				entries.add(ButtonBlocks.GLASS_BUTTON);
 
 				entries.add(CarpetBlocks.GLASS_CARPET);
+				entries.add(CarpetBlocks.WHITE_STAINED_GLASS_CARPET);
 			}))
 			.build()
 	);
 
 	public static void registerItemGroup() {
+		/*ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(entries -> {
+			entries.add(NyohokiBlock.NYOHOKI);
+		});*/
 	}
 }

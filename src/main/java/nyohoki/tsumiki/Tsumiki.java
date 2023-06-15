@@ -2,11 +2,8 @@ package nyohoki.tsumiki;
 
 import net.fabricmc.api.ModInitializer;
 
-import nyohoki.tsumiki.block.ButtonBlocks;
-import nyohoki.tsumiki.block.CarpetBlocks;
-import nyohoki.tsumiki.block.NyohokiBlock;
-import nyohoki.tsumiki.item.NyohokiItem;
-import nyohoki.tsumiki.item.TsumikiItemGroup;
+import nyohoki.tsumiki.block.*;
+import nyohoki.tsumiki.item.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,5 +31,6 @@ public class Tsumiki implements ModInitializer {
 
 		ButtonBlocks.registerButtonBlocks();
 		CarpetBlocks.registerCarpetBlocks();
+		DoorBlocks.registerDoorBlocks();
 	}
 }
