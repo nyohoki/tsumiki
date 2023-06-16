@@ -21,7 +21,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -36,7 +37,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -51,7 +53,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -66,7 +69,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -81,7 +85,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -96,7 +101,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -111,7 +117,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -126,7 +133,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -141,7 +149,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -156,7 +165,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -171,7 +181,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -186,7 +197,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -201,7 +213,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -216,7 +229,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -231,7 +245,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -246,7 +261,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -261,7 +277,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -276,7 +293,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -291,7 +309,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -306,7 +325,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -321,7 +341,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -336,7 +357,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -351,7 +373,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -366,7 +389,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -381,7 +405,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -396,7 +421,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -411,7 +437,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -426,7 +453,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -441,7 +469,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -456,7 +485,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -471,7 +501,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -486,7 +517,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -501,7 +533,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
@@ -516,7 +549,8 @@ public class ButtonBlocks {
 				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
 				.nonOpaque(),
-			BlockSetType.IRON,
+			BlockSetType
+				.IRON,
 			30,
 			false
 		)
