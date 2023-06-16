@@ -111,6 +111,82 @@ public class FenceBlocks {
 				.sounds(BlockSoundGroup.GLASS)
 		)
 	);
+	public static final Block LIGHT_BLUE_STAINED_GLASS_FENCE = registerBlock(
+		"light_blue_stained_glass_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.LIGHT_BLUE)
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS)
+		)
+	);
+	public static final Block BLUE_STAINED_GLASS_FENCE = registerBlock(
+		"blue_stained_glass_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BLUE)
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS)
+		)
+	);public static final Block PURPLE_STAINED_GLASS_FENCE = registerBlock(
+		"purple_stained_glass_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.PURPLE)
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS)
+		)
+	);
+	public static final Block MAGENTA_STAINED_GLASS_FENCE = registerBlock(
+		"magenta_stained_glass_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.MAGENTA)
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS)
+		)
+	);
+	public static final Block BROWN_STAINED_GLASS_FENCE = registerBlock(
+		"brown_stained_glass_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BROWN)
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS)
+		)
+	);
+	public static final Block LIGHT_GRAY_STAINED_GLASS_FENCE = registerBlock(
+		"light_gray_stained_glass_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.LIGHT_GRAY)
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS)
+		)
+	);
+	public static final Block GRAY_STAINED_GLASS_FENCE = registerBlock(
+		"gray_stained_glass_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.GRAY)
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS)
+		)
+	);
 	private static Block registerBlock(
 		String name,
 		Block block
