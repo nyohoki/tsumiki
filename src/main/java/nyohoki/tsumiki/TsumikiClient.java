@@ -9,11 +9,11 @@ public class TsumikiClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		BlockRenderLayerMap.INSTANCE.putBlock(
-			CarpetBlocks.GLASS_CARPET,
+			YukamenBlocks.GLASS_CARPET,
 			RenderLayer.getTranslucent()
 		);
 		BlockRenderLayerMap.INSTANCE.putBlock(
-			CarpetBlocks.WHITE_STAINED_GLASS_CARPET,
+			YukamenBlocks.WHITE_STAINED_GLASS_CARPET,
 			RenderLayer.getTranslucent()
 		);
 
