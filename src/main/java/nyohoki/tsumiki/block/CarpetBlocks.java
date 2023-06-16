@@ -10,7 +10,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import nyohoki.tsumiki.Tsumiki;
 
-public class YukamenBlocks { // ゆかめん 床面
+public class CarpetBlocks { // ゆかめん 床面
 	public static final Block GLASS_CARPET = registerBlock(
 		"glass_carpet",
 		new CarpetBlock(
@@ -243,9 +243,9 @@ public class YukamenBlocks { // ゆかめん 床面
 		);
 		return item;
 	}
-	public static void registerYukamenBlocks() {
+	public static void registerCarpetBlocks() {
 		Tsumiki.LOGGER.info(
-			"Registering Yukamen Blocks for " + Tsumiki.MOD_ID
+			"Registering Carpet Blocks for " + Tsumiki.MOD_ID
 		);
 	}
 }
