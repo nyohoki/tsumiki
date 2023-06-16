@@ -29,6 +29,7 @@ public class StairBlocks {
 	private static Item registerBlockItem(String name, Block block) {
 		Item item = Registry.register(Registries.ITEM, new Identifier(Tsumiki.MOD_ID, name),
 			new BlockItem(block, new FabricItemSettings()));
+		return item;
 	}
 	public static void registerStairBlocks() {
 		Tsumiki.LOGGER.info("Registering Stair Blocks for " + Tsumiki.MOD_ID);

@@ -27,6 +27,7 @@ public class WallBlocks {
 	private static Item registerBlockItem(String name, Block block) {
 		Item item = Registry.register(Registries.ITEM, new Identifier(Tsumiki.MOD_ID, name),
 			new BlockItem(block, new FabricItemSettings()));
+		return item;
 	}
 	public static void registerWallBlocks() {
 		Tsumiki.LOGGER.info("Registering Wall Blocks for " + Tsumiki.MOD_ID);

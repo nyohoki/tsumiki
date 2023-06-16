@@ -35,7 +35,7 @@ public class TsumikiItemGroup {
 				
 				entries.add(StairBlocks.GLASS_STAIRS);
 				
-				entires.add(TrapdoorBlocks.GLASS_TRAPDOOR);
+				entries.add(TrapdoorBlocks.GLASS_TRAPDOOR);
 				
 				entries.add(WallBlocks.GLASS_WALL);
 			}))

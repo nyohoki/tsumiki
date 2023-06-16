@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:block/door_bottom_left",
 	"textures": {
-		"bottom": "minecraft:block/glass",
-		"top": "minecraft:block/glass"
+		"bottom": "tsumiki:glass_door_bottom",
+		"top": "tsumiki:glass_door_top"
 	}
 }

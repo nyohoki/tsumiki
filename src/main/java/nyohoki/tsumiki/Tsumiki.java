@@ -32,6 +32,6 @@ public class Tsumiki implements ModInitializer {
 		SlabBlocks.registerSlabBlocks();
 		StairBlocks.registerStairBlocks();
 		TrapdoorBlocks.registerTrapdoorBlocks();
-		WallBlocks.registerWall
+		WallBlocks.registerWallBlocks();
 	}
 }

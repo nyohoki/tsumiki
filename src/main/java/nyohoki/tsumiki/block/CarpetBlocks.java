@@ -34,9 +34,10 @@ public class CarpetBlocks {
 		registerBlockItem(name, block);
 		return Registry.register(Registries.BLOCK, new Identifier(Tsumiki.MOD_ID, name), block);
 	}
-	private static void registerBlockItem(String name, Block block) {
+	private static Item registerBlockItem(String name, Block block) {
 		Item item = Registry.register(Registries.ITEM, new Identifier(Tsumiki.MOD_ID, name),
 			new BlockItem(block, new FabricItemSettings()));
+		return item;
 	}
 	public static void registerCarpetBlocks() {
 		Tsumiki.LOGGER.info("Registering Carpet Blocks for " + Tsumiki.MOD_ID);

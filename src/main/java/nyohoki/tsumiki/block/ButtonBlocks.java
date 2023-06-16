@@ -421,7 +421,7 @@ public class ButtonBlocks {
 				AbstractBlock.Settings.create()
 					.mapColor(MapColor.LIGHT_GRAY)
 					.strength(0.3f, 0.3f)
-					.sounds(BlockSoundGroup.wool)
+					.sounds(BlockSoundGroup.WOOL)
 					.noCollision()
 					.nonOpaque(),
 				BlockSetType.IRON,30,false
@@ -457,9 +457,10 @@ public class ButtonBlocks {
 		registerBlockItem(name, block);
 		return Registry.register(Registries.BLOCK, new Identifier(Tsumiki.MOD_ID, name), block);
 	}
-	private static void registerBlockItem(String name, Block block) {
+	private static Item registerBlockItem(String name, Block block) {
 		Item item = Registry.register(Registries.ITEM, new Identifier(Tsumiki.MOD_ID, name),
 			new BlockItem(block, new FabricItemSettings()));
+		return item;
 	}
 	public static void registerButtonBlocks() {
 		Tsumiki.LOGGER.info("Registering Button Blocks for " + Tsumiki.MOD_ID);

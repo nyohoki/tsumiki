@@ -29,6 +29,7 @@ public class SlabBlocks {
 	private static Item registerBlockItem(String name, Block block) {
 		Item item = Registry.register(Registries.ITEM, new Identifier(Tsumiki.MOD_ID, name),
 			new BlockItem(block, new FabricItemSettings()));
+		return item;
 	}
 	public static void registerSlabBlocks() {
 		Tsumiki.LOGGER.info("Registering Slab Blocks for " + Tsumiki.MOD_ID);

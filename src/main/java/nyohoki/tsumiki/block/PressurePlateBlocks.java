@@ -30,6 +30,7 @@ public class PressurePlateBlocks {
 	private static Item registerBlockItem(String name, Block block) {
 		Item item = Registry.register(Registries.ITEM, new Identifier(Tsumiki.MOD_ID, name),
 			new BlockItem(block, new FabricItemSettings()));
+		return item;
 	}
 	public static void registerPressurePlateBlocks() {
 		Tsumiki.LOGGER.info("Registering Pressue Plate Blocks for " + Tsumiki.MOD_ID);
