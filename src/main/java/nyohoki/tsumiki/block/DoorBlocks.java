@@ -11,25 +11,56 @@ import net.minecraft.util.Identifier;
 import nyohoki.tsumiki.Tsumiki;
 
 public class DoorBlocks {
-	public static final Block GLASS_DOOR = registerBlock("glass_door",
-		new DoorBlock(FabricBlockSettings.create().mapColor(MapColor.CLEAR)
-			.strength(0.3f, 0.3f)
-			.sounds(BlockSoundGroup.GLASS)
-			.nonOpaque(),
-			BlockSetType.CHERRY
+	public static final Block GLASS_DOOR = registerBlock(
+		"glass_door",
+		new DoorBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.CLEAR)
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS)
+				.nonOpaque(),
+			BlockSetType
+				.CHERRY
 		)
 	);
-	private static Block registerBlock(String name, Block block) {
-
-		registerBlockItem(name, block);
-		return Registry.register(Registries.BLOCK, new Identifier(Tsumiki.MOD_ID, name), block);
+	private static Block registerBlock(
+		String name,
+		Block block
+	) {
+		registerBlockItem(
+			name,
+			block
+		);
+		return Registry.register(
+			Registries.BLOCK,
+			new Identifier(
+				Tsumiki.MOD_ID,
+				name
+			),
+			block
+		);
 	}
-	private static Item registerBlockItem(String name, Block block) {
-		Item item = Registry.register(Registries.ITEM, new Identifier(Tsumiki.MOD_ID, name),
-			new BlockItem(block, new FabricItemSettings()));
+	private static Item registerBlockItem(
+		String name,
+		Block block
+	) {
+		Item item = Registry.register(
+			Registries.ITEM,
+			new Identifier(
+				Tsumiki.MOD_ID,
+				name
+			),
+			new BlockItem(
+				block,
+				new FabricItemSettings()
+			)
+		);
 		return item;
 	}
 	public static void registerDoorBlocks() {
-		Tsumiki.LOGGER.info("Registering Door Blocks for " + Tsumiki.MOD_ID);
+		Tsumiki.LOGGER.info(
+			"Registering Door Blocks for " + Tsumiki.MOD_ID
+		);
 	}
 }
