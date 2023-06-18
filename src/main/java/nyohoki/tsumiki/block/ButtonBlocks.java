@@ -17,10 +17,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.CLEAR)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -33,10 +33,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.WHITE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -49,10 +49,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.PINK)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -65,10 +65,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.RED)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -81,10 +81,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.ORANGE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -97,10 +97,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.YELLOW)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -113,10 +113,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.LIME)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -129,10 +129,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.GREEN)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -145,10 +145,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.CYAN)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -161,10 +161,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.LIGHT_BLUE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -177,10 +177,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.BLUE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -193,10 +193,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.PURPLE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -209,10 +209,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.MAGENTA)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -225,10 +225,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.BROWN)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -241,10 +241,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.LIGHT_GRAY)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -257,10 +257,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.GRAY)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -273,10 +273,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.BLACK)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -289,10 +289,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.BLACK)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.GLASS)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.3f, 0.3f)
+				.sounds(BlockSoundGroup.GLASS),
 			BlockSetType
 				.IRON,
 			30,
@@ -305,10 +305,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.WHITE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -321,10 +321,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.PINK)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -337,10 +337,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.RED)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -353,10 +353,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.ORANGE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -369,10 +369,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.YELLOW)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -385,10 +385,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.LIME)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -401,10 +401,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.GREEN)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -417,10 +417,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.CYAN)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -433,10 +433,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.LIGHT_BLUE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -449,10 +449,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.BLUE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -465,10 +465,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.PURPLE)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -481,10 +481,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.MAGENTA)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -497,10 +497,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.BROWN)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -513,10 +513,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.LIGHT_GRAY)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -529,10 +529,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.GRAY)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,
@@ -545,10 +545,10 @@ public class ButtonBlocks {
 			AbstractBlock.Settings
 				.create()
 				.mapColor(MapColor.BLACK)
-				.strength(0.3f, 0.3f)
-				.sounds(BlockSoundGroup.WOOL)
 				.noCollision()
-				.nonOpaque(),
+				.nonOpaque()
+				.strength(0.8f, 0.8f)
+				.sounds(BlockSoundGroup.WOOL),
 			BlockSetType
 				.IRON,
 			30,

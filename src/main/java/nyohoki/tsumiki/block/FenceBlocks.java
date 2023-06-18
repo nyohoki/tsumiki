@@ -1,7 +1,6 @@
 package nyohoki.tsumiki.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.*;
@@ -19,8 +18,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.CLEAR)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block WHITE_STAINED_GLASS_FENCE = registerBlock(
@@ -28,10 +27,10 @@ public class FenceBlocks {
 		new FenceBlock(
 			FabricBlockSettings
 				.create()
-				.mapColor(MapColor.WHTIE)
+				.mapColor(MapColor.WHITE)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block PINK_STAINED_GLASS_FENCE = registerBlock(
@@ -41,8 +40,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.PINK)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block RED_STAINED_GLASS_FENCE = registerBlock(
@@ -52,8 +51,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.RED)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block ORANGE_STAINED_GLASS_FENCE = registerBlock(
@@ -63,8 +62,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.ORANGE)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block YELLOW_STAINED_GLASS_FENCE = registerBlock(
@@ -74,8 +73,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.YELLOW)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block LIME_STAINED_GLASS_FENCE = registerBlock(
@@ -85,8 +84,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.LIME)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block GREEN_STAINED_GLASS_FENCE = registerBlock(
@@ -96,8 +95,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.GREEN)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block CYAN_STAINED_GLASS_FENCE = registerBlock(
@@ -107,8 +106,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.CYAN)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block LIGHT_BLUE_STAINED_GLASS_FENCE = registerBlock(
@@ -118,8 +117,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.LIGHT_BLUE)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block BLUE_STAINED_GLASS_FENCE = registerBlock(
@@ -129,8 +128,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.BLUE)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);public static final Block PURPLE_STAINED_GLASS_FENCE = registerBlock(
 		"purple_stained_glass_fence",
@@ -139,8 +138,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.PURPLE)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block MAGENTA_STAINED_GLASS_FENCE = registerBlock(
@@ -150,8 +149,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.MAGENTA)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block BROWN_STAINED_GLASS_FENCE = registerBlock(
@@ -161,8 +160,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.BROWN)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block LIGHT_GRAY_STAINED_GLASS_FENCE = registerBlock(
@@ -172,8 +171,8 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.LIGHT_GRAY)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
 		)
 	);
 	public static final Block GRAY_STAINED_GLASS_FENCE = registerBlock(
@@ -183,8 +182,189 @@ public class FenceBlocks {
 				.create()
 				.mapColor(MapColor.GRAY)
 				.nonOpaque()
-				.strength(0.3f, 0.3f)
 				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block BLACK_STAINED_GLASS_FENCE = registerBlock(
+		"black_stained_glass_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BLACK)
+				.nonOpaque()
+				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block TINTED_GLASS_FENCE = registerBlock(
+		"tinted_glass_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BLACK)
+				.nonOpaque()
+				.sounds(BlockSoundGroup.GLASS)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block WHITE_WOOL_FENCE = registerBlock(
+		"white_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.WHITE)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block PINK_WOOL_FENCE = registerBlock(
+		"pink_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.PINK)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block RED_WOOL_FENCE = registerBlock(
+		"red_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.RED)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block ORANGE_WOOL_FENCE = registerBlock(
+		"orange_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.ORANGE)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block YELLOW_WOOL_FENCE = registerBlock(
+		"yellow_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.YELLOW)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block LIME_WOOL_FENCE = registerBlock(
+		"lime_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.LIME)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block GREEN_WOOL_FENCE = registerBlock(
+		"green_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.GREEN)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block CYAN_WOOL_FENCE = registerBlock(
+		"cyan_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.CYAN)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block LIGHT_BLUE_WOOL_FENCE = registerBlock(
+		"light_blue_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.LIGHT_BLUE)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block BLUE_WOOL_FENCE = registerBlock(
+		"blue_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BLUE)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);public static final Block PURPLE_WOOL_FENCE = registerBlock(
+		"purple_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.PURPLE)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block MAGENTA_WOOL_FENCE = registerBlock(
+		"magenta_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.MAGENTA)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block BROWN_WOOL_FENCE = registerBlock(
+		"brown_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BROWN)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block LIGHT_GRAY_WOOL_FENCE = registerBlock(
+		"light_gray_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.LIGHT_GRAY)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block GRAY_WOOL_FENCE = registerBlock(
+		"gray_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.GRAY)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
+		)
+	);
+	public static final Block BLACK_WOOL_FENCE = registerBlock(
+		"black_wool_fence",
+		new FenceBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BLACK)
+				.sounds(BlockSoundGroup.WOOL)
+				.strength(0.8f, 0.8f)
 		)
 	);
 	private static Block registerBlock(
