@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"nyohoki.tsumiki.Tsumiki"
+		],
+		"client": [
+			"nyohoki.tsumiki.TsumikiClient"
 		]
 	},
 	"mixins": [

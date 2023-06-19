@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#*#",
+		"***",
+		"***"
+	],
+	"key": {
+		"*": {
+			"item": "minecraft:green_stained_glass"
+		},
+		"#": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "tsumiki:green_stained_glass_trapdoor",
+		"count": 2
+	}
+}
