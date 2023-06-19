@@ -264,7 +264,7 @@ public class StairBlocks {
 				.strength(0.3f, 0.3f)
 		)
 	);
-	public static final Block WHITE_WOOLSTAIRS = registerBlock(
+	public static final Block WHITE_WOOL_STAIRS = registerBlock(
 		"white_wool_stairs",
 		new StairsBlock(
 			NyohokiBlock
@@ -446,7 +446,7 @@ public class StairBlocks {
 				.strength(0.8f, 0.8f)
 		)
 	);
-	public static final Block LIGHT_GRAY_WOOLSTAIRS = registerBlock(
+	public static final Block LIGHT_GRAY_WOOL_STAIRS = registerBlock(
 		"light_gray_wool_stairs",
 		new StairsBlock(
 			NyohokiBlock

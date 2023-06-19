@@ -120,7 +120,7 @@ public class TrapdoorBlocks {
 		)
 	);
 	public static final Block LIGHT_BLUE_STAINED_GLASS_TRAPDOOR = registerBlock(
-		"light_blue_cyan_stained_glass_trapdoor",
+		"light_blue_stained_glass_trapdoor",
 		new TrapdoorBlock(
 			FabricBlockSettings
 				.create()
@@ -316,7 +316,7 @@ public class TrapdoorBlocks {
 		)
 	);
 	public static final Block LIGHT_BLUE_WOOL_TRAPDOOR = registerBlock(
-		"light_blue_cyan_wool_trapdoor",
+		"light_blue_wool_trapdoor",
 		new TrapdoorBlock(
 			FabricBlockSettings
 				.create()

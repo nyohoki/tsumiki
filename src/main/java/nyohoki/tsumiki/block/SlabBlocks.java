@@ -308,7 +308,7 @@ public class SlabBlocks {
 				.strength(0.8f, 0.8f)
 		)
 	);
-	public static final Block BLUE_WOOLSLAB = registerBlock(
+	public static final Block BLUE_WOOL_SLAB = registerBlock(
 		"blue_wool_slab",
 		new SlabBlock(
 			FabricBlockSettings
