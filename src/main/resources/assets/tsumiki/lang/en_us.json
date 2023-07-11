@@ -6,7 +6,7 @@
 	"block.tsumiki.glass_carpet": "Glass Floor",
 	"block.tsumiki.glass_door": "Glass Door",
 	"block.tsumiki.glass_fence": "Glass Fence",
-	"block.tsumiki.glass_gate": "Glass Gate"
+	"block.tsumiki.glass_gate": "Glass Gate",
 	"block.tsumiki.glass_pressure_plate": "Glass Pressure Plate",
 	"block.tsumiki.glass_slab": "Glass Slab",
 	"block.tsumiki.glass_stairs": "Glass Stairs",
@@ -17,7 +17,7 @@
 	"block.tsumiki.white_stained_glass_carpet": "White Stained Glass Floor",
 	"block.tsumiki.white_stained_glass_door": "White Stained Glass Door",
 	"block.tsumiki.white_stained_glass_fence": "White Stained Glass Fence",
-	"block.tsumiki.white_stained_glass_gate": "White Stained Glass Gate"
+	"block.tsumiki.white_stained_glass_gate": "White Stained Glass Gate",
 	"block.tsumiki.white_stained_glass_pressure_plate": "White Stained Glass Pressure Plate",
 	"block.tsumiki.white_stained_glass_slab": "White Stained Glass Slab",
 	"block.tsumiki.white_stained_glass_stairs": "White Stained Glass Stairs",
@@ -28,7 +28,7 @@
 	"block.tsumiki.pink_stained_glass_carpet": "Pink Stained Glass Floor",
 	"block.tsumiki.pink_stained_glass_door": "Pink Stained Glass Door",
 	"block.tsumiki.pink_stained_glass_fence": "Pink Stained Glass Fence",
-	"block.tsumiki.pink_stained_glass_gate": "Pink Stained Glass Gate"
+	"block.tsumiki.pink_stained_glass_gate": "Pink Stained Glass Gate",
 	"block.tsumiki.pink_stained_glass_pressure_plate": "Pink Stained Glass Pressure Plate",
 	"block.tsumiki.pink_stained_glass_slab": "Pink Stained Glass Slab",
 	"block.tsumiki.pink_stained_glass_stairs": "Pink Stained Glass Stairs",
@@ -39,7 +39,7 @@
 	"block.tsumiki.red_stained_glass_carpet": "Red Stained Glass Floor",
 	"block.tsumiki.red_stained_glass_door": "Red Stained Glass Door",
 	"block.tsumiki.red_stained_glass_fence": "Red Stained Glass Fence",
-	"block.tsumiki.red_stained_glass_gate": "Red Stained Glass Gate"
+	"block.tsumiki.red_stained_glass_gate": "Red Stained Glass Gate",
 	"block.tsumiki.red_stained_glass_pressure_plate": "Red Stained Glass Pressure Plate",
 	"block.tsumiki.red_stained_glass_slab": "Red Stained Glass Slab",
 	"block.tsumiki.red_stained_glass_stairs": "Red Stained Glass Stairs",
@@ -50,7 +50,7 @@
 	"block.tsumiki.orange_stained_glass_carpet": "Orange Stained Glass Floor",
 	"block.tsumiki.orange_stained_glass_door": "Orange Stained Glass Door",
 	"block.tsumiki.orange_stained_glass_fence": "Orange Stained Glass Fence",
-	"block.tsumiki.orange_stained_glass_gate": "Orange Stained Glass Gate"
+	"block.tsumiki.orange_stained_glass_gate": "Orange Stained Glass Gate",
 	"block.tsumiki.orange_stained_glass_pressure_plate": "Orange Stained Glass Pressure Plate",
 	"block.tsumiki.orange_stained_glass_slab": "Orange Stained Glass Slab",
 	"block.tsumiki.orange_stained_glass_stairs": "Orange Stained Glass Stairs",
@@ -61,7 +61,7 @@
 	"block.tsumiki.yellow_stained_glass_carpet": "Yellow Stained Glass Floor",
 	"block.tsumiki.yellow_stained_glass_door": "Yellow Stained Glass Door",
 	"block.tsumiki.yellow_stained_glass_fence": "Yellow Stained Glass Fence",
-	"block.tsumiki.yellow_stained_glass_gate": "Yellow Stained Glass Gate"
+	"block.tsumiki.yellow_stained_glass_gate": "Yellow Stained Glass Gate",
 	"block.tsumiki.yellow_stained_glass_pressure_plate": "Yellow Stained Glass Pressure Plate",
 	"block.tsumiki.yellow_stained_glass_slab": "Yellow Stained Glass Slab",
 	"block.tsumiki.yellow_stained_glass_stairs": "Yellow Stained Glass Stairs",
@@ -72,7 +72,7 @@
 	"block.tsumiki.lime_stained_glass_carpet": "Lime Stained Glass Floor",
 	"block.tsumiki.lime_stained_glass_door": "Lime Stained Glass Door",
 	"block.tsumiki.lime_stained_glass_fence": "Lime Stained Glass Fence",
-	"block.tsumiki.lime_stained_glass_gate": "Lime Stained Glass Gate"
+	"block.tsumiki.lime_stained_glass_gate": "Lime Stained Glass Gate",
 	"block.tsumiki.lime_stained_glass_pressure_plate": "Lime Stained Glass Pressure Plate",
 	"block.tsumiki.lime_stained_glass_slab": "Lime Stained Glass Slab",
 	"block.tsumiki.lime_stained_glass_stairs": "Lime Stained Glass Stairs",
@@ -83,7 +83,7 @@
 	"block.tsumiki.green_stained_glass_carpet": "Green Stained Glass Floor",
 	"block.tsumiki.green_stained_glass_door": "Green Stained Glass Door",
 	"block.tsumiki.green_stained_glass_fence": "Green Stained Glass Fence",
-	"block.tsumiki.green_stained_glass_gate": "Green Stained Glass Gate"
+	"block.tsumiki.green_stained_glass_gate": "Green Stained Glass Gate",
 	"block.tsumiki.green_stained_glass_pressure_plate": "Green Stained Glass Pressure Plate",
 	"block.tsumiki.green_stained_glass_slab": "Green Stained Glass Slab",
 	"block.tsumiki.green_stained_glass_stairs": "Green Stained Glass Stairs",
@@ -94,7 +94,7 @@
 	"block.tsumiki.cyan_stained_glass_carpet": "Cyan Stained Glass Floor",
 	"block.tsumiki.cyan_stained_glass_door": "Cyan Stained Glass Door",
 	"block.tsumiki.cyan_stained_glass_fence": "Cyan Stained Glass Fence",
-	"block.tsumiki.cyan_stained_glass_gate": "Cyan Stained Glass Gate"
+	"block.tsumiki.cyan_stained_glass_gate": "Cyan Stained Glass Gate",
 	"block.tsumiki.cyan_stained_glass_pressure_plate": "Cyan Stained Glass Pressure Plate",
 	"block.tsumiki.cyan_stained_glass_slab": "Cyan Stained Glass Slab",
 	"block.tsumiki.cyan_stained_glass_stairs": "Cyan Stained Glass Stairs",
@@ -105,10 +105,10 @@
 	"block.tsumiki.light_blue_stained_glass_carpet": "Light Blue Stained Glass Floor",
 	"block.tsumiki.light_blue_stained_glass_door": "Light Blue Stained Glass Door",
 	"block.tsumiki.light_blue_stained_glass_fence": "Light Blue Stained Glass Fence",
-	"block.tsumiki.light_blue_stained_glass_gate": "Light Blue Stained Glass Gate"
+	"block.tsumiki.light_blue_stained_glass_gate": "Light Blue Stained Glass Gate",
 	"block.tsumiki.light_blue_stained_glass_pressure_plate": "Light Blue Stained Glass Pressure Plate",
-	"block.tsumiki.light_blue_stained_vglass_slab": "Light Blue Stained Glass Slab",
-	"block.tsumiki.light_blue_stained_vglass_stairs": "Light Blue Stained Glass Stairs",
+	"block.tsumiki.light_blue_stained_glass_slab": "Light Blue Stained Glass Slab",
+	"block.tsumiki.light_blue_stained_glass_stairs": "Light Blue Stained Glass Stairs",
 	"block.tsumiki.light_blue_stained_glass_trapdoor": "Light Blue Stained Glass Trapdoor",
 	"block.tsumiki.light_blue_stained_glass_wall": "Light Blue Stained Glass Wall",
 
@@ -116,7 +116,7 @@
 	"block.tsumiki.blue_stained_glass_carpet": "Blue Stained Glass Floor",
 	"block.tsumiki.blue_stained_glass_door": "Blue Stained Glass Door",
 	"block.tsumiki.blue_stained_glass_fence": "Blue Stained Glass Fence",
-	"block.tsumiki.blue_stained_glass_gate": "Blue Stained Glass Gate"
+	"block.tsumiki.blue_stained_glass_gate": "Blue Stained Glass Gate",
 	"block.tsumiki.blue_stained_glass_pressure_plate": "Blue Stained Glass Pressure Plate",
 	"block.tsumiki.blue_stained_glass_slab": "Blue Stained Glass Slab",
 	"block.tsumiki.blue_stained_glass_stairs": "Blue Stained Glass Stairs",
@@ -127,7 +127,7 @@
 	"block.tsumiki.purple_stained_glass_carpet": "Purple Stained Glass Floor",
 	"block.tsumiki.purple_stained_glass_door": "Purple Stained Glass Door",
 	"block.tsumiki.purple_stained_glass_fence": "Purple Stained Glass Fence",
-	"block.tsumiki.purple_stained_glass_gate": "Purple Stained Glass Gate"
+	"block.tsumiki.purple_stained_glass_gate": "Purple Stained Glass Gate",
 	"block.tsumiki.purple_stained_glass_pressure_plate": "Purple Stained Glass Pressure Plate",
 	"block.tsumiki.purple_stained_glass_slab": "Purple Stained Glass Slab",
 	"block.tsumiki.purple_stained_glass_stairs": "Purple Stained Glass Stairs",
@@ -138,7 +138,7 @@
 	"block.tsumiki.magenta_stained_glass_carpet": "Magenta Stained Glass Floor",
 	"block.tsumiki.magenta_stained_glass_door": "Magenta Stained Glass Door",
 	"block.tsumiki.magenta_stained_glass_fence": "Magenta Stained Glass Fence",
-	"block.tsumiki.magenta_stained_glass_gate": "Magenta Stained Glass Gate"
+	"block.tsumiki.magenta_stained_glass_gate": "Magenta Stained Glass Gate",
 	"block.tsumiki.magenta_stained_glass_pressure_plate": "Magenta Stained Glass Pressure Plate",
 	"block.tsumiki.magenta_stained_glass_slab": "Magenta Stained Glass Slab",
 	"block.tsumiki.magenta_stained_glass_stairs": "Magenta Stained Glass Stairs",
@@ -149,7 +149,7 @@
 	"block.tsumiki.brown_stained_glass_carpet": "Brown Stained Glass Floor",
 	"block.tsumiki.brown_stained_glass_door": "Brown Stained Glass Door",
 	"block.tsumiki.brown_stained_glass_fence": "Brown Stained Glass Fence",
-	"block.tsumiki.brown_stained_glass_gate": "Brown Stained Glass Gate"
+	"block.tsumiki.brown_stained_glass_gate": "Brown Stained Glass Gate",
 	"block.tsumiki.brown_stained_glass_pressure_plate": "Brown Stained Glass Pressure Plate",
 	"block.tsumiki.brown_stained_glass_slab": "Brown Stained Glass Slab",
 	"block.tsumiki.brown_stained_glass_stairs": "Brown Stained Glass Stairs",
@@ -160,7 +160,7 @@
 	"block.tsumiki.light_gray_stained_glass_carpet": "Light Gray Stained Glass Floor",
 	"block.tsumiki.light_gray_stained_glass_door": "Light Gray Stained Glass Door",
 	"block.tsumiki.light_gray_stained_glass_fence": "Light Gray Stained Glass Fence",
-	"block.tsumiki.light_gray_stained_glass_gate": "Light Gray Stained Glass Gate"
+	"block.tsumiki.light_gray_stained_glass_gate": "Light Gray Stained Glass Gate",
 	"block.tsumiki.light_gray_stained_glass_pressure_plate": "Light Gray Stained Glass Pressure Plate",
 	"block.tsumiki.light_gray_stained_glass_slab": "Light Gray Stained Glass Slab",
 	"block.tsumiki.light_gray_stained_glass_stairs": "Light Gray Stained Glass Stairs",
@@ -171,7 +171,7 @@
 	"block.tsumiki.gray_stained_glass_carpet": "Gray Stained Glass Floor",
 	"block.tsumiki.gray_stained_glass_door": "Gray Stained Glass Door",
 	"block.tsumiki.gray_stained_glass_fence": "Gray Stained Glass Fence",
-	"block.tsumiki.gray_stained_glass_gate": "Gray Stained Glass Gate"
+	"block.tsumiki.gray_stained_glass_gate": "Gray Stained Glass Gate",
 	"block.tsumiki.gray_stained_glass_pressure_plate": "Gray Stained Glass Pressure Plate",
 	"block.tsumiki.gray_stained_glass_slab": "Gray Stained Glass Slab",
 	"block.tsumiki.gray_stained_glass_stairs": "Gray Stained Glass Stairs",
@@ -182,7 +182,7 @@
 	"block.tsumiki.black_stained_glass_carpet": "Black Stained Glass Floor",
 	"block.tsumiki.black_stained_glass_door": "Black Stained Glass Door",
 	"block.tsumiki.black_stained_glass_fence": "Black Stained Glass Fence",
-	"block.tsumiki.black_stained_glass_gate": "Black Stained Glass Gate"
+	"block.tsumiki.black_stained_glass_gate": "Black Stained Glass Gate",
 	"block.tsumiki.black_stained_glass_pressure_plate": "Black Stained Glass Pressure Plate",
 	"block.tsumiki.black_stained_glass_slab": "Black Stained Glass Slab",
 	"block.tsumiki.black_stained_glass_stairs": "Black Stained Glass Stairs",
@@ -193,7 +193,7 @@
 	"block.tsumiki.tinted_glass_carpet": "Tinted Glass Floor",
 	"block.tsumiki.tinted_glass_door": "Tinted Glass Door",
 	"block.tsumiki.tinted_glass_fence": "Tinted Glass Fence",
-	"block.tsumiki.tinted_glass_gate": "Tinted Glass Gate"
+	"block.tsumiki.tinted_glass_gate": "Tinted Glass Gate",
 	"block.tsumiki.tinted_glass_pressure_plate": "Tinted Glass Pressure Plate",
 	"block.tsumiki.tinted_glass_slab": "Tinted Glass Slab",
 	"block.tsumiki.tinted_glass_stairs": "Tinted Glass Stairs",
@@ -203,7 +203,7 @@
 	"block.tsumiki.white_wool_button": "White Wool Button",
 	"block.tsumiki.white_wool_door": "White Wool Door",
 	"block.tsumiki.white_wool_fence": "White Wool Fence",
-	"block.tsumiki.white_wool_gate": "White Wool Gate"
+	"block.tsumiki.white_wool_gate": "White Wool Gate",
 	"block.tsumiki.white_wool_pressure_plate": "White Wool Pressure Plate",
 	"block.tsumiki.white_wool_glass_slab": "White Wool Slab",
 	"block.tsumiki.white_wool_stairs": "White Wool Stairs",
@@ -213,7 +213,7 @@
 	"block.tsumiki.pink_wool_button": "Pink Wool Button",
 	"block.tsumiki.pink_wool_door": "Pink Wool Door",
 	"block.tsumiki.pink_wool_fence": "Pink Wool Fence",
-	"block.tsumiki.pink_wool_gate": "Pink Wool Gate"
+	"block.tsumiki.pink_wool_gate": "Pink Wool Gate",
 	"block.tsumiki.pink_wool_pressure_plate": "Pink Wool Pressure Plate",
 	"block.tsumiki.pink_wool_glass_slab": "Pink Wool Slab",
 	"block.tsumiki.pink_wool_stairs": "Pink Wool Stairs",
@@ -223,7 +223,7 @@
 	"block.tsumiki.red_wool_button": "Red Wool Button",
 	"block.tsumiki.red_wool_door": "Red Wool Door",
 	"block.tsumiki.red_wool_fence": "Red Wool Fence",
-	"block.tsumiki.red_wool_gate": "Red Wool Gate"
+	"block.tsumiki.red_wool_gate": "Red Wool Gate",
 	"block.tsumiki.red_wool_pressure_plate": "Red Wool Pressure Plate",
 	"block.tsumiki.red_wool_glass_slab": "Red Wool Slab",
 	"block.tsumiki.red_wool_stairs": "Red Wool Stairs",
@@ -233,7 +233,7 @@
 	"block.tsumiki.orange_wool_button": "Orange Wool Button",
 	"block.tsumiki.orange_wool_door": "Orange Wool Door",
 	"block.tsumiki.orange_wool_fence": "Orange Wool Fence",
-	"block.tsumiki.orange_wool_gate": "Orange Wool Gate"
+	"block.tsumiki.orange_wool_gate": "Orange Wool Gate",
 	"block.tsumiki.orange_wool_pressure_plate": "Orange Wool Pressure Plate",
 	"block.tsumiki.orange_wool_glass_slab": "Orange Wool Slab",
 	"block.tsumiki.orange_wool_stairs": "Orange Wool Stairs",
@@ -243,7 +243,7 @@
 	"block.tsumiki.yellow_wool_button": "Yellow Wool Button",
 	"block.tsumiki.yellow_wool_door": "Yellow Wool Door",
 	"block.tsumiki.yellow_wool_fence": "Yellow Wool Fence",
-	"block.tsumiki.yellow_wool_gate": "Yellow Wool Gate"
+	"block.tsumiki.yellow_wool_gate": "Yellow Wool Gate",
 	"block.tsumiki.yellow_wool_pressure_plate": "Yellow Wool Pressure Plate",
 	"block.tsumiki.yellow_wool_glass_slab": "Yellow Wool Slab",
 	"block.tsumiki.yellow_wool_stairs": "Yellow Wool Stairs",
@@ -253,7 +253,7 @@
 	"block.tsumiki.lime_wool_button": "Lime Wool Button",
 	"block.tsumiki.lime_wool_door": "Lime Wool Door",
 	"block.tsumiki.lime_wool_fence": "Lime Wool Fence",
-	"block.tsumiki.lime_wool_gate": "Lime Wool Gate"
+	"block.tsumiki.lime_wool_gate": "Lime Wool Gate",
 	"block.tsumiki.lime_wool_pressure_plate": "Lime Wool Pressure Plate",
 	"block.tsumiki.lime_wool_glass_slab": "Lime Wool Slab",
 	"block.tsumiki.lime_wool_stairs": "Lime Wool Stairs",
@@ -263,7 +263,7 @@
 	"block.tsumiki.green_wool_button": "Green Wool Button",
 	"block.tsumiki.green_wool_door": "Green Wool Door",
 	"block.tsumiki.green_wool_fence": "Green Wool Fence",
-	"block.tsumiki.green_wool_gate": "Green Wool Gate"
+	"block.tsumiki.green_wool_gate": "Green Wool Gate",
 	"block.tsumiki.green_wool_pressure_plate": "Green Wool Pressure Plate",
 	"block.tsumiki.green_wool_glass_slab": "Green Wool Slab",
 	"block.tsumiki.green_wool_stairs": "Green Wool Stairs",
@@ -273,7 +273,7 @@
 	"block.tsumiki.cyan_wool_button": "Cyan Wool Button",
 	"block.tsumiki.cyan_wool_door": "Cyan Wool Door",
 	"block.tsumiki.cyan_wool_fence": "Cyan Wool Fence",
-	"block.tsumiki.cyan_wool_gate": "Cyan Wool Gate"
+	"block.tsumiki.cyan_wool_gate": "Cyan Wool Gate",
 	"block.tsumiki.cyan_wool_pressure_plate": "Cyan Wool Pressure Plate",
 	"block.tsumiki.cyan_wool_glass_slab": "Cyan Wool Slab",
 	"block.tsumiki.cyan_wool_stairs": "Cyan Wool Stairs",
@@ -283,7 +283,7 @@
 	"block.tsumiki.light_blue_wool_button": "Light Blue Wool Button",
 	"block.tsumiki.light_blue_wool_door": "Light Blue Wool Door",
 	"block.tsumiki.light_blue_wool_fence": "Light Blue Wool Fence",
-	"block.tsumiki.light_blue_wool_gate": "Light Blue Wool Gate"
+	"block.tsumiki.light_blue_wool_gate": "Light Blue Wool Gate",
 	"block.tsumiki.light_blue_wool_pressure_plate": "Light Blue Wool Pressure Plate",
 	"block.tsumiki.light_blue_wool_glass_slab": "Light Blue Wool Slab",
 	"block.tsumiki.light_blue_wool_stairs": "Light Blue Wool Stairs",
@@ -293,7 +293,7 @@
 	"block.tsumiki.blue_wool_button": "Blue Wool Button",
 	"block.tsumiki.blue_wool_door": "Blue Wool Door",
 	"block.tsumiki.blue_wool_fence": "Blue Wool Fence",
-	"block.tsumiki.blue_wool_gate": "Blue Wool Gate"
+	"block.tsumiki.blue_wool_gate": "Blue Wool Gate",
 	"block.tsumiki.blue_wool_pressure_plate": "Blue Wool Pressure Plate",
 	"block.tsumiki.blue_wool_glass_slab": "Blue Wool Slab",
 	"block.tsumiki.blue_wool_stairs": "Blue Wool Stairs",
@@ -303,7 +303,7 @@
 	"block.tsumiki.purple_wool_button": "Purple Wool Button",
 	"block.tsumiki.purple_wool_door": "Purple Wool Door",
 	"block.tsumiki.purple_wool_fence": "Purple Wool Fence",
-	"block.tsumiki.purple_wool_gate": "Purple Wool Gate"
+	"block.tsumiki.purple_wool_gate": "Purple Wool Gate",
 	"block.tsumiki.purple_wool_pressure_plate": "Purple Wool Pressure Plate",
 	"block.tsumiki.purple_wool_glass_slab": "Purple Wool Slab",
 	"block.tsumiki.purple_wool_stairs": "Purple Wool Stairs",
@@ -313,7 +313,7 @@
 	"block.tsumiki.magenta_wool_button": "Magenta Wool Button",
 	"block.tsumiki.magenta_wool_door": "Magenta Wool Door",
 	"block.tsumiki.magenta_wool_fence": "Magenta Wool Fence",
-	"block.tsumiki.magenta_wool_gate": "Magenta Wool Gate"
+	"block.tsumiki.magenta_wool_gate": "Magenta Wool Gate",
 	"block.tsumiki.magenta_wool_pressure_plate": "Magenta Wool Pressure Plate",
 	"block.tsumiki.magenta_wool_glass_slab": "Magenta Wool Slab",
 	"block.tsumiki.magenta_wool_stairs": "Magenta Wool Stairs",
@@ -323,7 +323,7 @@
 	"block.tsumiki.brown_wool_button": "Brown Wool Button",
 	"block.tsumiki.brown_wool_door": "Brown Wool Door",
 	"block.tsumiki.brown_wool_fence": "Brown Wool Fence",
-	"block.tsumiki.brown_wool_gate": "Brown Wool Gate"
+	"block.tsumiki.brown_wool_gate": "Brown Wool Gate",
 	"block.tsumiki.brown_wool_pressure_plate": "Brown Wool Pressure Plate",
 	"block.tsumiki.brown_wool_glass_slab": "Brown Wool Slab",
 	"block.tsumiki.brown_wool_stairs": "Brown Wool Stairs",
@@ -333,7 +333,7 @@
 	"block.tsumiki.light_gray_wool_button": "Light Gray Wool Button",
 	"block.tsumiki.light_gray_wool_door": "Light Gray Wool Door",
 	"block.tsumiki.light_gray_wool_fence": "Light Gray Wool Fence",
-	"block.tsumiki.light_gray_wool_gate": "Light Gray Wool Gate"
+	"block.tsumiki.light_gray_wool_gate": "Light Gray Wool Gate",
 	"block.tsumiki.light_gray_wool_pressure_plate": "Light Gray Wool Pressure Plate",
 	"block.tsumiki.light_gray_wool_glass_slab": "Light Gray Wool Slab",
 	"block.tsumiki.light_gray_wool_stairs": "Light Gray Wool Stairs",
@@ -343,7 +343,7 @@
 	"block.tsumiki.gray_wool_button": "Gray Wool Button",
 	"block.tsumiki.gray_wool_door": "Gray Wool Door",
 	"block.tsumiki.gray_wool_fence": "Gray Wool Fence",
-	"block.tsumiki.gray_wool_gate": "Gray Wool Gate"
+	"block.tsumiki.gray_wool_gate": "Gray Wool Gate",
 	"block.tsumiki.gray_wool_pressure_plate": "Gray Wool Pressure Plate",
 	"block.tsumiki.gray_wool_glass_slab": "Gray Wool Slab",
 	"block.tsumiki.gray_wool_stairs": "Gray Wool Stairs",
@@ -353,7 +353,7 @@
 	"block.tsumiki.black_wool_button": "Black Wool Button",
 	"block.tsumiki.black_wool_door": "Black Wool Door",
 	"block.tsumiki.black_wool_fence": "Black Wool Fence",
-	"block.tsumiki.black_wool_gate": "Black Wool Gate"
+	"block.tsumiki.black_wool_gate": "Black Wool Gate",
 	"block.tsumiki.black_wool_pressure_plate": "Black Wool Pressure Plate",
 	"block.tsumiki.black_wool_glass_slab": "Black Wool Slab",
 	"block.tsumiki.black_wool_stairs": "Black Wool Stairs",
