@@ -209,6 +209,96 @@ public class CarpetBlocks { // ゆかめん 床面
 				.strength(0.3f, 0.3f)
 		)
 	);
+	public static final Block OAK_WOOD_CARPET = registerBlock(
+		"oak_wood_carpet",
+		new CarpetBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BROWN)
+				.sounds(BlockSoundGroup.WOOD)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block DARK_OAK_WOOD_CARPET = registerBlock(
+		"dark_oak_wood_carpet",
+		new CarpetBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BROWN)
+				.sounds(BlockSoundGroup.WOOD)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block BIRCH_WOOD_CARPET = registerBlock(
+		"birch_wood_carpet",
+		new CarpetBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.WHITE)
+				.sounds(BlockSoundGroup.WOOD)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block SPRUCE_WOOD_CARPET = registerBlock(
+		"spruce_wood_carpet",
+		new CarpetBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BROWN)
+				.sounds(BlockSoundGroup.WOOD)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block JUNGLE_WOOD_CARPET = registerBlock(
+		"jungle_wood_carpet",
+		new CarpetBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BROWN)
+				.sounds(BlockSoundGroup.WOOD)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block ACACIA_WOOD_CARPET = registerBlock(
+		"acacia_wood_carpet",
+		new CarpetBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BROWN)
+				.sounds(BlockSoundGroup.WOOD)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block MANGROVE_WOOD_CARPET = registerBlock(
+		"mangrove_wood_carpet",
+		new CarpetBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BROWN)
+				.sounds(BlockSoundGroup.WOOD)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block CRIMSON_HYPHAE_CARPET = registerBlock(
+		"crimson_hyphae_carpet",
+		new CarpetBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.RED)
+				.sounds(BlockSoundGroup.WOOD)
+				.strength(0.3f, 0.3f)
+		)
+	);
+	public static final Block WARPED_HYPHAE_CARPET = registerBlock(
+		"warped_hyphae_carpet",
+		new CarpetBlock(
+			FabricBlockSettings
+				.create()
+				.mapColor(MapColor.BLUE)
+				.sounds(BlockSoundGroup.WOOD)
+				.strength(0.3f, 0.3f)
+		)
+	);
 	private static Block registerBlock(
 		String name,
 		Block block
